@@ -2,7 +2,7 @@
 
 ## Первые шаги
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория ![version_control.git](https://git@github.com:gulden-geekbrains/version_control.git)
+1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
 2. Выполняем команду клонирования из своей fork-копии
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/version_control.git
