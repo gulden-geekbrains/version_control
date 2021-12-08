@@ -20,6 +20,8 @@ git push --set-upstream origin updatereadme
 ```
 5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
+## Заметки
+
 Что бы сделать push от другого пользователя необходимо выполнить команду
 ```sh
 GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
