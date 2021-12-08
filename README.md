@@ -1,4 +1,12 @@
 # Это репозиторий для обучения pull request
+
+## Первые шаги
+
+1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория ![version_control.git](https://git@github.com:gulden-geekbrains/version_control.git)
+2. Выполняем команду клонирования из своей fork-копии
+```sh
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
 Делаем первый push
 
 Что бы сделать push от другого пользователя необходимо выполнить команду
