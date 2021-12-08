@@ -20,3 +20,5 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 Add text for rebase 1
 
 Add text for rebase 2
+
+Add merge 1
