@@ -22,3 +22,5 @@ Add text for rebase 1
 Add text for rebase 2
 
 Add merge 1
+
+Add merge 2
