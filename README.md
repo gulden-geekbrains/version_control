@@ -16,9 +16,9 @@ git commit -m "Добавили инструкцию как создать pull 
 ```
 4. Делаем push  
 ```sh
-git push
+git push --set-upstream origin updatereadme
 ```
-5. Переходим на страницу и жмем кнопку Open pull request
+5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
 Что бы сделать push от другого пользователя необходимо выполнить команду
 ```sh
