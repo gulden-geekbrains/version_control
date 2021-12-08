@@ -18,3 +18,5 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 - *new_key.pub* - открытый ключ. Его необходимо загрузить на github
 
 Add text for rebase 1
+
+Add text for rebase 2
