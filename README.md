@@ -7,7 +7,11 @@
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/version_control.git
 ```
-Делаем первый push
+3. Делаем push  
+```sh
+git push
+```
+4. Переходим на страницу и жмем кнопку Open pull request
 
 Что бы сделать push от другого пользователя необходимо выполнить команду
 ```sh
