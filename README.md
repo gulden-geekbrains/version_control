@@ -34,3 +34,4 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
+# Заключение
