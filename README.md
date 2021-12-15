@@ -35,3 +35,4 @@ git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
 видеоинструкция (https://www.youtube.com/watch?v=E8cIjbJMEpE&feature=youtu.be)
+не помогло
