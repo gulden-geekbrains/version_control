@@ -1,5 +1,15 @@
 # Это репозиторий для обучения pull request
 1111
+qqqqqqqqqqqqqqqq
+QQQQQQQQQQQQQQQ
+QQQQQQQQQQQ
+
+
+!!!!!!!!!!!!!!
+!!!!!!!!!!
+^
+
+
 ## Первые шаги
 
 1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
