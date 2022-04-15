@@ -12,5 +12,9 @@ kill all humans
 
 kill robots
 
+
 kill all animals
 
+
+
+no robot should be harmed. ever
