@@ -7,3 +7,6 @@ be mine
 
 
 kill all humans
+
+
+kill robots
