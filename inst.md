@@ -1,14 +1,25 @@
 # Instruction for MarkDown
 
-This is simple text
+## Text`s styles
 
-New line
+Simple text write so
 
-# Lists
-* List
-* List
-* List
-1. Counted
-2. Counted
-3. Counted
+New line is one clear line
 
+Bold font is "** **" - **example**
+
+Cursive is "* *" - *example*
+
+Strikethrough font is "~ ~" - ~example~
+
+## Citations
+>Use ">" for making citations
+>>Example
+
+## Lists
+* Use "*" for noncounted list
+1) Use "number." for counted list
+
+
+# Img
+For inserting pics use "**![anytext](filename)
