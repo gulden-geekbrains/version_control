@@ -23,3 +23,5 @@ Strikethrough font is "~ ~" - ~example~
 
 # Img
 For inserting pics use "**![anytext](filename)
+
+anytwxt
