@@ -22,6 +22,7 @@ Strikethrough font is "~ ~" - ~example~
 
 
 # Img
-For inserting pics use "**![anytext](filename)
+For inserting pics use "**![anytext](filename)"
 
-anytext
+# Weblinks
+For inserting links use "[name of link](**link** "Any text")"
