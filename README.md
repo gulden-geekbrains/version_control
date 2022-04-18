@@ -39,4 +39,10 @@ Add some text
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+## Homework
+ Для работы с удаленным репозиторием необходимо использовать следующие команды:
+ ```
+* git pull
+* git push
+* git clone
+```
