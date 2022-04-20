@@ -15,7 +15,7 @@ git commit -m
 ```
 6. Отправляем свои изменения на сайт:
 ```sh
-git push --set-upstream "branch_name"
+git push --set-upstream origin "branch_name"
 ```
 7. Делаем pull request на сайте (предлагаем свои правки разработчику).
 
