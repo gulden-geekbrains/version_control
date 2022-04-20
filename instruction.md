@@ -21,3 +21,14 @@
 
 ## WEB ссылки
 Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+
+## Spoiler
+<details>
+    <summary>Hidden text</summary>
+    Text
+</details>
+
+### Key combination
+To copy text press  <kbd>Ctrl</kbd> + <kbd>C</kbd> 
+
+ To insert text press <kbd>Ctrl</kbd> + <kbd>V</kbd>
