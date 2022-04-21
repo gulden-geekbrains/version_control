@@ -32,3 +32,23 @@ git checkout master
 ``` sh
 git diff
 ```
+## Посмотреть список веток в репозитории
+``` sh
+git branch
+```
+## Создать новую ветку
+``` sh
+git branch <name>
+```
+## Удалить ветку
+``` sh
+git branch -d <name>
+```
+## Перейти между ветками
+``` sh
+git checkout <name>
+```
+## Слить ветки
+``` sh
+git merge
+```
