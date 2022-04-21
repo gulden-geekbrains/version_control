@@ -40,7 +40,5 @@ git push
 ```sh 
 git pull --rebase
 ```
-5. __git pull request__ - эта команда отправляет из vsc предлогаемые изменения в github к основному репозиторию.
-```sh 
-git pull request
+
 ```
