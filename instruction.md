@@ -17,13 +17,11 @@
 ### Нумерованные списки
 1. Лист 1
 2. Лист 2
-<<<<<<< HEAD
 3. list the
-=======
-3. лист 33
->>>>>>> 8da51c1 ( more lists)
 
 ## WEB ссылки
 Текст [пример ссылки](http.example.com "Всплывающая подсказка")
 cd.. откатывает назад
 cd folder name
+
+something about links
