@@ -17,7 +17,11 @@
 ### Нумерованные списки
 1. Лист 1
 2. Лист 2
-3. List three
+3. list the
 
 ## WEB ссылки
 Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+cd.. откатывает назад
+cd folder name
+
+something about links
