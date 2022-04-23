@@ -20,7 +20,7 @@ git push --set-upstream origin updatereadme
 ```
 5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
-## Заметки
+## Работа с удаленными репозиториями
 
 Что бы сделать push от другого пользователя необходимо выполнить команду
 ```sh
@@ -34,9 +34,28 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
-# Как подружить git с github под Windows 10
+### Как подружить git с github под Windows 10
 Add some text
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+### Отправка информации с локального репозитория на удаленный
+```sh
+git push
+```
+
+### Обновление информации, копирование изменений с удаленного репозитория на локальный
+```sh
+git pull
+```
+
+### Копирование информации с удаленного репозитория в свой аккаунт на GitHub
+```sh
+git fork
+```
+
+### Запрос на принятие изменений в чужой удаленный репозиторий на GitHub
+```sh
+pull request
+```
