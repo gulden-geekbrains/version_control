@@ -34,12 +34,11 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
-# Как подружить git с github под Windows 10
+### Как подружить git с github под Windows 10
 Add some text
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-## Работа с удаленнми репозиториями
 
 ### Отправка информации с локального репозитория на удаленный
 ```sh
