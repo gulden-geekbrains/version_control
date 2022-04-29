@@ -40,3 +40,6 @@ Add some text
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+Добавили инструкцию как создать pull request
+Добавили
+
