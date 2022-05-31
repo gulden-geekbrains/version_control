@@ -21,3 +21,27 @@
 
 ## WEB ссылки
 Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+
+## Работа с таблицами
+
+Letter | Digit | Character
+------ | ------|----------
+a      | 4     | $
+x      | 365    | (
+b      |       | ^  
+
+Letter|Digit|Character
+---|---|---
+a|4|$
+ |365|(
+b| |^  
+
+Column | Column
+------ | ------
+\| Cell \|| \| Cell \|  
+
+
+Column | Column | Column
+:----- | :----: | -----:
+Left   | Center | Right
+align  | align  | align
