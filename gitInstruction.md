@@ -109,3 +109,14 @@ cd git branch d- branch_name
 ```sh
 cd git mv name.md NAME.md
 ```
+
+## GIThub
+
+* **to download** a repository from GIThub **fork** it to your account **then use its link**
+or **create your own repository** an also use its link 
+
+* **Paste** the link in terminal using this cd:
+```sh
+cd git clone your_link
+```
+* Use **new branch** to add any changes
