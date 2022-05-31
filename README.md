@@ -38,4 +38,6 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+## Как сделать pull request
 
+[Вот ссылка с инструкцией](https://zany-candytuft-d5c.notion.site/28-05-22-7998a136151143e08d832e9eb77da12a) 
