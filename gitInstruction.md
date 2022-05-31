@@ -124,7 +124,8 @@ cd git clone your_link
 ```sh
 cd git push
 ```
-To get all changes and merge with local version use:
+* **To get** all changes and **merge** with local version use:
 ```sh
 cd git pull
 ```
+**YOU CAN ALSO MAKE THE COMMITS DIRECTLY IN GITHUB COMMENT SECTION**
