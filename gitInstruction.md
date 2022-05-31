@@ -120,3 +120,7 @@ or **create your own repository** an also use its link
 cd git clone your_link
 ```
 * Use **new branch** to add any changes
+To upload current version to GIThub use:
+```sh
+cd git push
+```
