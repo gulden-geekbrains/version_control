@@ -7,18 +7,20 @@
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/version_control.git
 ```
-3. Создаем новую ветку и вносим необходимые изменения в файл
+3. В git переходим в нужную папку с помощью команды в терминале cd *Name* 
+
+4. Создаем новую ветку и вносим необходимые изменения в файл
 ```sh
 git checkout -b updatereadme
 vim README.md
 git add README.md
 git commit -m "Добавили инструкцию как создать pull request"
 ```
-4. Делаем push  
+5. Делаем push  
 ```sh
 git push --set-upstream origin updatereadme
 ```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
+6. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
 ## Заметки
 
