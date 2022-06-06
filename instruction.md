@@ -56,3 +56,6 @@ git clone <hyperlink.git> #влить удаленный репозиторий 
 git remote add origin https://github.com/<account-name>/<new-repository-name>.git #связать локальный репозиторий с удаленным репозиторием
 
 ```
+```sh
+git branch -M main #указать на то, какая ветка будет основной
+```
