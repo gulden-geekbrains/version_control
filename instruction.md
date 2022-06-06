@@ -68,3 +68,6 @@ git push -u origin main #залить в удаленный репозитори
 ```sh
 git push --set-upstream origin <branch_name> #залить ветку <branch_name> в удаленный репозиторий
 ```
+```sh
+git pull #влить изменения с удаленного репозитория (все ветки)
+```
