@@ -45,3 +45,5 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+
+# Инструкция по работе с удаленным репозиторием в Git
