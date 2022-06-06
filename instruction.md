@@ -47,3 +47,8 @@ Left   | Center | Right
 align  | align  | align
 
 # Инструкция по работе с удаленным репозиторием в Git
+
+```sh
+git clone <hyperlink.git> #влить удаленный репозиторий на локальную машину
+
+```
