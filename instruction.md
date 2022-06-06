@@ -71,3 +71,6 @@ git push --set-upstream origin <branch_name> #залить ветку <branch_na
 ```sh
 git pull #влить изменения с удаленного репозитория (все ветки)
 ```
+```sh
+git pull origin master #влить изменения с удаленного репозитория (только указанная ветка)
+```
