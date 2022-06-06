@@ -59,3 +59,6 @@ git remote add origin https://github.com/<account-name>/<new-repository-name>.gi
 ```sh
 git branch -M main #указать на то, какая ветка будет основной
 ```
+```sh
+git push origin master #залить в удаленный репозиторий (с сокр. именем origin) данные своей ветки master
+```
