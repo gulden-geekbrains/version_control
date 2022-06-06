@@ -52,3 +52,7 @@ align  | align  | align
 git clone <hyperlink.git> #влить удаленный репозиторий на локальную машину
 
 ```
+```sh
+git remote add origin https://github.com/<account-name>/<new-repository-name>.git #связать локальный репозиторий с удаленным репозиторием
+
+```
