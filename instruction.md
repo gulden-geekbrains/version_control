@@ -45,3 +45,7 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+
+## Image
+Чтобы вствить изображение в текст, достаточно написать следующее:
+![Привет, это такое-то изображение!](image.jpg)
