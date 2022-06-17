@@ -39,3 +39,10 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+
+# Добавить изображение
+
+
+
+![Ну заяц погоди](%D0%92%D0%9E%D0%9B%D0%9A.webp)
+
