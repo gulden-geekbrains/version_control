@@ -45,3 +45,7 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+
+## Работа с изображениями
+![Kotik](Kotik.png)
+
