@@ -45,3 +45,5 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+# вставка картинок
+ ! [комментарий к картинке](файл картинки)
