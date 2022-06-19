@@ -38,4 +38,6 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+При отправке изменений (push) из созданной новой ветки на GitHub, для дальнейшей передачи предложений владельцу репозитория, необходимо выполнить команду:
 
+`git push --set-upstream origin название текущей ветки`
