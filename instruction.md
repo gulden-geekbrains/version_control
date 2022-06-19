@@ -1,4 +1,4 @@
-# Инструкция по языку MarkDown
+# Instruction for MarkDown language
 
 Новая строка - это олна пустая строка
 
