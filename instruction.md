@@ -46,3 +46,7 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+
+# Работа с картинками.
+Чтобы добавить картинку, нужно делать так:
+! [Привет,я - смузи](smuzy.png)
