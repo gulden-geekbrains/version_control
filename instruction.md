@@ -32,9 +32,9 @@ b      |       | ^
 
 Letter|Digit|Character
 ---|---|---
-a|4|$
- |365|(
-b| |^  
+a  |4  |$
+   |365|(
+b  |   |^  
 
 Column | Column
 ------ | ------
