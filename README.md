@@ -39,6 +39,11 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+## Выполняем команду клонирования из своей fork-копии
+```sh
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
+
 ## Работа с репозиторием
 при совместной работе с локальным репозиторием и Web версией, когда отправляем локальную версия может выдать ошибку, необходимо набрать следующую команду
 ```sh
