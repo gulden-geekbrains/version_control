@@ -38,6 +38,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-### Третий подзаголовок 
- Предложение внести дополнения по инструкции в GitHub 
+## Изменения в файле 
+
+Инструкция, на мой взгляд, полная. Добавить нечего... 
 
