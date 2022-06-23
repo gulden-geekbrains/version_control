@@ -40,4 +40,4 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 
 Тестирование
-
+Попытка № 2
