@@ -22,3 +22,6 @@
 1. Numerate
 2. Numerate
 3. Numerate three
+
+## Web ссылки
+Текст [пример ссылки](http.example.com "Всплывающая подсказка")
