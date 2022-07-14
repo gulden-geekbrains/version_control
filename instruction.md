@@ -51,7 +51,7 @@ align  | align  | align
 
 ![orange](orange.png)
 
-
+## Картинка
 ### Это ананас
 
 ![Pineapple](Pineapple.jpg)
