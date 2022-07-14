@@ -52,4 +52,5 @@ align  | align  | align
 ![orange](orange.png)
 
 Это машина
+
 ![Car](car.jpg)
