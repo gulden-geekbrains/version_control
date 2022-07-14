@@ -45,3 +45,8 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+
+
+## Image
+
+![Это вишня](cherry.jpg)
