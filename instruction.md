@@ -45,3 +45,7 @@ Column | Column | Column
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
+
+## Картинки
+Это апельсин
+![Orange](%D0%90%D0%BF%D0%B5%D0%BB%D1%8C%D1%81%D0%B8%D0%BD.jpg)
