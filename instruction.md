@@ -50,3 +50,6 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+Это машина
+![Car](car.jpg)
