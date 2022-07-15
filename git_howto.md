@@ -42,3 +42,17 @@
     git diff
     ```
 
+* Выполнить клонирование из Githab
+    ```sh
+    git clone git@github.com:*YOURE_GITHUB*/version_control.git
+    ```
+
+* Выполнить загрузку репозитория в Github
+    ```sh
+    git push
+    ```
+
+* Выполнить выгрузку репозитория из Github
+    ```sh
+    git pull
+    ```
