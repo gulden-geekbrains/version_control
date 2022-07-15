@@ -53,9 +53,9 @@
     ```
 
 * Выполнить загрузку ветки в Github
-```sh
-git push --set-upstream origin <branch name>
-```
+    ```sh
+    git push --set-upstream origin <branch name>
+    ```
 
 * Выполнить выгрузку репозитория из Github
     ```sh
