@@ -47,6 +47,11 @@ Left   | Center | Right
 align  | align  | align
 
 ## Картинки
+
+### Это яблоко
+
+![apple](apple.jpg)
+
 ### Это апельсин
 
 ![orange](orange.png)
