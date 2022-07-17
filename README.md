@@ -18,6 +18,8 @@ git commit -m "Добавили инструкцию как создать pull 
 ```sh
 git push --set-upstream origin updatereadme
 ```
+>В командной строке будет прогресс загрузки и в конце будет ссылка куда был загружен проект, для удобства можно сразу перейти по ней.
+
 5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
 ## Заметки
@@ -38,6 +40,6 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-123
+
 
 
