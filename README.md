@@ -38,4 +38,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+# Команды для работы с удаленным репозиторием
+* git clone -склонировать внешний репозиторий на свой ПК
+* git pull - скачать все из текущего репозитория и автоматически сделать merge со своей версий
+* git push - отправить свою версию репозитория на внешний репозиторий
