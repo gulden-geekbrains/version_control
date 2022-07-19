@@ -55,3 +55,8 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+
+### Это яблоко 
+
+![apple1](apple1.jpg)
