@@ -65,3 +65,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Это груша
+
+![pear](pear.png)
