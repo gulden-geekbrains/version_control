@@ -1,4 +1,6 @@
-# How to work with git
+# Инструкция по работе с удаленными репозиториями
+
 
 main commands
+
 
