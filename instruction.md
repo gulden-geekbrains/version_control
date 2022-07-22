@@ -56,3 +56,6 @@ align  | align  | align
 
 ![orange](orange.png)
 
+### Это ананас
+
+![ananas](ananas.jpg)
