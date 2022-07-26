@@ -55,3 +55,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Картинки
+Это апельсин
+![Orange](orange.png)
