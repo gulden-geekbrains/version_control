@@ -55,6 +55,7 @@ align  | align  | align
 
 ## Цветной текст
 <!--- с добавлением HTML--->	
+{::options parse_block_html="true" /}
 
 <span style="color:blue"> Это синий цвет</span>
 
@@ -64,12 +65,9 @@ align  | align  | align
 
 <!--- на github текст не окрасился--->
 
+<style>
+o { color: Orange }
+</style>
 
-## Видео
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="path/to/video.mp4" type="video/mp4">
-    <source src="path/to/video.ogg" type="video/ogg">
-    <source src="path/to/video.webm" type="video/webm">
-  </video>
-</figure>
+<o>Это оранжевый цвет</o> 
+
