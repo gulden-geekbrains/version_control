@@ -52,5 +52,15 @@ align  | align  | align
 
 ![sea](sea.png "море")
 
+## Выделенный блок
+```sh
+Текст выделен
+```
 
+## Дополнительное оформление ссылок
+- [**markdown-it**][markdown-it]
 
+- [**node.js**][node.js]
+
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [node.js]: <http://nodejs.org>
