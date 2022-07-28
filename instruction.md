@@ -53,21 +53,4 @@ align  | align  | align
 ![sea](sea.png "море")
 
 
-## Цветной текст
-<!--- с добавлением HTML--->	
-{::options parse_block_html="true" /}
-
-<span style="color:blue"> Это синий цвет</span>
-
-<span style="color:green"> Это зеленый цвет</span>
-
-<span style="color:red"> Это красный цвет</span>
-
-<!--- на github текст не окрасился--->
-
-<style>
-o { color: Orange }
-</style>
-
-<o>Это оранжевый цвет</o> 
 
