@@ -47,7 +47,7 @@ Left   | Center | Right
 align  | align  | align
 
 ## Картинки
-
+<!---Изменения в инструкции GIT-->
 ### Это море
 
 ![sea](sea.png "море")
