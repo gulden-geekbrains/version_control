@@ -48,15 +48,20 @@ align  | align  | align
 
 ## Картинки
 
-### Это яблоко
-
-![apple](apple.jpg)
-
-### Это апельсин
-
-![orange](orange.png)
-
 ### Это море
 
+![sea](sea.png "море")
 
-![sea](sea.png)
+
+## Цветной текст
+<!--- с добавлением HTML--->	
+
+<span style="color:blue"> Это синий цвет</span>
+
+<span style="color:green"> Это зеленый цвет</span>
+
+<span style="color:red"> Это красный цвет</span>
+
+## Ссылка на файл
+
+Это файл [README](README.md) 
