@@ -53,5 +53,4 @@ align  | align  | align
 ![orange](apple.jpg)
 
 ### Это апельсин
-
 ![orange](orange.jpg)
