@@ -50,8 +50,17 @@ align  | align  | align
 
 ### Это яблоко
 
-![apple](apple.jpg)
+![orange](apple.jpg)
 
 ### Это апельсин
 
-![orange](orange.png)
+
+
+
+![orange](orange.jpg)
+
+## Домашнее задание
+
+Pull request 
+
+Добавил текст
