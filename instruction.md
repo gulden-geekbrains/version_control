@@ -55,3 +55,6 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+#### Улыбнись!
+![Smile](Smile.jpg)
