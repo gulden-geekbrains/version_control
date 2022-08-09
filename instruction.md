@@ -48,7 +48,7 @@ align  | align  | align
 
 ## Картинки
 
-### Это яблоко
+### Это яблоки
 
 ![apple](apple.jpg)
 
