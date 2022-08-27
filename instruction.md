@@ -36,12 +36,12 @@ a|4|$
  |365|(
 b| |^  
 
-Column | Column
+Первый столбец | Второй столбец
 ------ | ------
 \| Cell \|| \| Cell \|  
 
 
-Column | Column | Column
+Первый столбец | Второй столбец | Третий столбец
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
@@ -55,3 +55,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+### Это баклажан
+
+![orange](Eggplant.jpg)
