@@ -58,6 +58,12 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 >***git log*** - Просмотр истории изменений репозитория.
 
+# Изображение
+
+![это гит](git.png)
+
+![это гитхаб](github.png)
+
 
 # Как подружить git с github под Windows 10
 
