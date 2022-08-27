@@ -64,6 +64,11 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 ![это гитхаб](github.png)
 
+# Ссылки
+
+[справочник по гит](http://microsin.net/programming/pc/git-quick-reference.html)
+
+[справочник по гит 2](https://gist.github.com/liviox/2fc79703b21911313322)
 
 # Как подружить git с github под Windows 10
 
