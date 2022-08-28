@@ -55,3 +55,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+new image apple
+
+![apple](images.jpg.jfif)
