@@ -38,4 +38,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+## Инструкция по работе с удаленными репозиториями
+* git clone <url-адрес репозитория> - клонирования репозитория на локальный ПК
+* git pull - получение изменений и слияние с локальной веткой 
+* git push - отправить изменения на внешний ресурс
