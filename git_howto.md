@@ -4,8 +4,8 @@ main commands
 
 git push - push from local to github
 
-git pull - pull from github to lacal version
+git pull - pull from github to local version
 
-git pull request - download github repo
+git pull request - send request to github repo
 
 
