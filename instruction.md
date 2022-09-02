@@ -36,12 +36,12 @@ a|4|$
  |365|(
 b| |^  
 
-Column | Column
+Колонка | Колонка
 ------ | ------
 \| Cell \|| \| Cell \|  
 
 
-Column | Column | Column
+Колонка|Колонка|Колонка
 :----- | :----: | -----:
 Left   | Center | Right
 align  | align  | align
