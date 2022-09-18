@@ -34,8 +34,12 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
-# Как подружить git с github под Windows 10
+## Pull request
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+Pull request'ы позволяют вам рассказать другим о тех изменениях, которые вы разместили в своём GitHub-репозитории. Как только pull request отправлен, заинтересованные стороны рассматривают ваши изменения, обсуждают возможные правки или даже добавляют дополняющие коммиты, если нужно.
 
+Для того что создать __Pull request__, необходимо:
+* Быть зарегестрированным на GitHub
+* Иметь начальную версию репозитория 
+Дальше клонировать репозиторий командой (Clone) на свой пк, и дальше вносить изменения.После командой (push) отправить репозиторий на сайт GitHub. После предложить Pull request создателю репозитория.
 
