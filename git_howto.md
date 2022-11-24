@@ -33,20 +33,20 @@ git log
 
 > При добавлении достаточно большого количества коммитов, показывается сокращённый список, который можно скроллить стрелками. Для выхода из режима просмотра списка, press **q**
 
-![](.\images\git_log.png)
+![git log.png](.\images\git_log.png)
 
 Краткий список коммитов
 ```sh
 git log --oneline --graph
 ```
-![](.\images\git_log_short.png)
+![git log с короткой и графической записью.png](.\images\git_log_short.png)
 
 ## Переход от одного коммита к другому
 
 ``` sh
 git checkout хэш-код
 ```
-![](.\images\git_log.png)
+![git log.png](.\images\git_log.png)
 
 > шестнадцатеричный хэш-код можно вводить не целиком, а только первые 4 символа
 
@@ -56,7 +56,7 @@ git checkout хэш-код
 Если  **HEAD -> master**, значит мы на последнем коммите
 
 >Если маркера с названием ветки нет, значит мы в статусе **Detached head**
-![](.\images\git_log_detached_head.png)
+![безголовый гит лог.png](.\images\git_log_detached_head.png)
 
 ## Вернуться к актуальному состоянию и продолжить работу
 ```sh
@@ -67,7 +67,7 @@ git log master
 ```sh
 git dif
 ```
-![](.\images\git_diff.png)
+![git diff.png](.\images\git_diff.png)
 
 
 ## [Руководство по MarkDown](https://paulradzkov.com/2014/markdown_cheatsheet/) взято с [этого сайта](https://paulradzkov.com)
