@@ -1,4 +1,6 @@
 # How to work with git
 
-main commands
-
+Repository Init
+```sh
+git init
+```
