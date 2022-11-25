@@ -1,10 +1,17 @@
-# How to work with git
+# Подсказка по git
 
 ## Инициализация репозитория
 
 ```sh
 git init
 ```
+## Создание ветки
 
-main commands
+```sh
+git branch branch_name
+```
+## Слияние веток
 
+```sh
+git merge
+```
