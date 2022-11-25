@@ -23,3 +23,21 @@ git add
 ```sh
 git commit -m
 ```
+
+## Показывает в какой ветке веработаешь
+
+```sh
+git branch
+```
+
+## Создать новую ветку
+
+```sh
+git branch branch_mame
+```
+
+## Переключение между ветками
+
+```sh
+git checkout
+```
