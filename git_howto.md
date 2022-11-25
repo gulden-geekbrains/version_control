@@ -6,5 +6,8 @@
 git init
 ```
 
-main commands
+## Статус репозитория
+```sh
+git status
+```
 
