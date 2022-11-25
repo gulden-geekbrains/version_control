@@ -11,3 +11,6 @@ git init
 main commands
 git status
 
+
+Смотрим еще раз (Это домашняя работа)
+
