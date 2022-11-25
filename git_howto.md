@@ -77,3 +77,4 @@ $ git branch -d name_branch
 ```
 $ git branch -D name_branch
 ```
+С болеe подробным описанием и инструкцией по работе с GIT можно ознакомиться в книге [**"GIT. Для профессионального программиста"**](https://gbcdn.mrgcdn.ru/uploads/asset/4245110/attachment/d4eb8c232f8f2bdf4e42ba7cb49e0c50.pdf/ "GIT. Для профессионального программиста")
