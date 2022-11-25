@@ -12,3 +12,7 @@ git init
 git status
 ```
 
+ Домашняя работа. Добавим собаку
+
+![Dog](dog.jpg)
+
