@@ -8,3 +8,8 @@ git init
 
 main commands
 
+
+## Самая популярная команда
+```
+git status
+```
