@@ -12,3 +12,8 @@ git init
 git status
 ```
 
+
+## Самая популярная команда
+```
+git status
+```
