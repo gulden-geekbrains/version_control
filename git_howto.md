@@ -12,3 +12,34 @@ git init
 git status
 ```
 
+## Отображение всех веток
+
+```sh
+git branch
+```
+
+## Создание новой ветки
+
+```sh
+git branch <branch_name>
+```
+
+## Создать новую ветку и переключиться на нее
+
+```sh
+git checkout -b <branch_name>
+```
+
+## Слияние веток
+
+```sh
+git merge <branch_name>
+```
+**Нужно выполнять из под ветки, в которую надо направить другую.**
+
+## Удаление ветки
+
+```sh
+git branch -d <branch_name>
+```
+
