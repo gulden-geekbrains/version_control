@@ -11,4 +11,7 @@ git init
 ```sh
 git status
 ```
-
+## Клонировать репозиторий
+```sh
+git clone https://github.com/LLlutik/version_control.git
+```
