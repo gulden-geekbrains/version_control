@@ -18,8 +18,3 @@ git status
 git branch
 ```
 
-## Список коммитов
-
-```sh
-git log
-```
