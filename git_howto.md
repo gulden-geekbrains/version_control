@@ -12,3 +12,6 @@ git init
 git status
 ```
 
+## Картинка 
+
+![](images.jpeg)
