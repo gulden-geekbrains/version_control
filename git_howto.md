@@ -12,3 +12,26 @@ git init
 git status
 ```
 
+## Добавление версии
+
+```sh
+git add <file name> 
+```
+
+## Добавление коммита
+
+```sh
+git commit -m “<message>”
+```
+
+## Add и commit одной командой
+
+```sh
+git commit -am “<message>” 
+```
+
+## Отображение всех коммитов
+
+```sh
+git log
+```
