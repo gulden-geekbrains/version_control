@@ -1,3 +1,5 @@
+![logo](Git_logo_.png)
+
 # Подсказка по гиту
 
 ## Инициализация репозитория
@@ -48,6 +50,7 @@ git checkout <commit_key/branch_name>
 
 ```sh
 git diff
+```
 
 ## Отображение всех веток
 
