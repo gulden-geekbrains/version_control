@@ -12,3 +12,9 @@ git init
 git status
 ```
 
+## Создать новую ветку
+
+```sh
+git branch
+```
+
