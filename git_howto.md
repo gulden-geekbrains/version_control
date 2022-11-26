@@ -1,4 +1,4 @@
-# How to work with git
+# Как работать с Git
 
 main commands
 
