@@ -11,4 +11,5 @@ git init
 ```sh
 git status
 ```
-
+## Работа с GitHub
+![Это значок GitHub](gitHUB.png)
