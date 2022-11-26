@@ -35,3 +35,5 @@ git commit -am “<message>”
 ```sh
 git log
 ```
+--oneline *Более компактное отображение*
+--graph *Отображение структуры веток*
