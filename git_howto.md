@@ -12,3 +12,14 @@ git init
 git status
 ```
 
+## Склонировать репозиторий на локальную машину
+
+```sh
+git clone
+```
+
+## Сoздать новую ветку и сразу перейти на нее
+
+```sh
+git checkout -b new_branch_name
+```
