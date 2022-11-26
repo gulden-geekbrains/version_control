@@ -46,3 +46,4 @@ git checkout master
 ```sh
 git diff
 ```
+# Команды по работе с удаленным репозиторием
