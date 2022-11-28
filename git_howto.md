@@ -15,3 +15,8 @@ git status
 ```sh
 git add
 ```
+
+## Сохранение изменений
+```sh
+git commit -m "text"
+```
