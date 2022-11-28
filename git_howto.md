@@ -24,3 +24,21 @@ git commit -m "text"
 ```sh
 git log
 ```
+
+## Работа с ветками
+### Просмотр существующих веток
+```sh
+git branch 
+```
+### Создание новой ветки
+```sh
+git branch branch_name
+```
+### Переключение между ветками
+```sh
+git checkout branch_name
+```
+### Удаление ветки 
+```sh
+git branch -d branch_name
+```
