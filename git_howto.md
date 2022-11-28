@@ -14,3 +14,7 @@ git status
 ## Просмотр текущей ветки
 
 git branch 
+
+## перейти в другую ветку
+
+git checkout
