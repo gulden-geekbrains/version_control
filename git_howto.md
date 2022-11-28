@@ -12,3 +12,8 @@ git init
 git status
 ```
 
+## Просмотр коммитов
+
+```sh
+git log
+```
