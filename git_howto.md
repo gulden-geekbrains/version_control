@@ -20,3 +20,7 @@ git add
 ```sh
 git commit -m "text"
 ```
+## Журнал изменений
+```sh
+git log
+```
