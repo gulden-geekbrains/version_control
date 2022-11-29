@@ -11,4 +11,9 @@ git init
 ```sh
 git status
 ```
+## Внесение изменений
+
+```sh
+git add
+```
 
