@@ -11,4 +11,8 @@ git init
 ```sh
 git status
 ```
+## Запись изменений в репозиторие
+```
+git add <name>
+```
 
