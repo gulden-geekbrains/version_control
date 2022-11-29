@@ -12,3 +12,14 @@ git init
 git status
 ```
 
+## Добавить файл
+
+ ```sh
+ git add
+ ```
+
+## Создать коммит
+
+```sh
+git commit -m "your message"
+```
