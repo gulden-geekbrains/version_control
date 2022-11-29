@@ -143,3 +143,34 @@ git push <remote> <branch>
 ```sh
 git push <remote> :<branch>
 ```
+
+## Работа с метками
+
+### Просмотр меток
+```sh
+git tag
+```
+### Созданиае аннотированных меток
+```sh
+git tag -a <tag> -m "comment"
+```
+### Создание легковесной метки
+```sh
+git tag <tag>
+```
+### Выставление меток позже
+```sh
+git tag -a <tag> <hash>
+```
+### Просмотр данных метки вместе с коммитом
+```sh
+git show <tag>
+```
+### Обмен метками
+```sh
+git push <remote> <tag>
+```
+### Отправка всех меток за один раз
+```sh
+git push <remote> --tags
+```
