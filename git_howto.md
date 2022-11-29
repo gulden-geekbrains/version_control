@@ -209,3 +209,34 @@ git pull <remote> <branch>
 ```sh
 git push <remote> <branch>
 ```
+
+## Конфигурация
+
+### Имя пользователя
+```sh
+git config --global user.name "Firstname Lastname"
+```
+### Адрес электронной почты пользователя
+```sh
+git config --global user.email mail@example.com
+```
+### Выбор редактора
+```sh
+git config --global core.editor emacs
+```
+### Утилита сравнения
+```sh
+git config --global merge.tool vimdiff
+```
+### Пофайловое отображение изменений
+```sh
+git config --global status.showUntrackedFiles all
+```
+### Создание псевдонимов для команд
+```sh
+git config alias.<alias> <command>
+```
+### Проверка настроек
+```sh
+git config --list
+```
