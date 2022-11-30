@@ -12,3 +12,9 @@ git init
 git status
 ```
 
+## Статус репозитория
+
+```sh
+git status
+```
+
