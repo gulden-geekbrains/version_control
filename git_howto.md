@@ -1,5 +1,3 @@
-# 
-
 # __Основные команды GIT or How to work with git__
 
 * ### __git init__
