@@ -12,3 +12,8 @@ git init
 git status
 ```
 
+## Слияние веток
+
+'''sh
+git merge
+'''
