@@ -30,21 +30,7 @@ a      | 4     | $
 x      | 365    | (
 b      |       | ^  
 
-Буква|Цифра|Символ
----|---|---
-a|4|$
- |365|(
-b| |^  
 
-Column | Column
------- | ------
-\| Cell \|| \| Cell \|  
-
-
-Column | Column | Column
-:----- | :----: | -----:
-Left   | Center | Right
-align  | align  | align
 
 ## Картинки
 
