@@ -12,3 +12,21 @@ git init
 git status
 ```
 
+## Просмотр изменений до коммита
+
+```sh
+git diff
+```
+
+## Создание новой ветки и переход в неё
+
+```sh
+git branch new_branch_name
+```
+
+## Просмотр списка веток
+
+```sh
+git branch
+```
+
