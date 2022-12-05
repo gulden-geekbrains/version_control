@@ -23,3 +23,10 @@ git diff
 ```sh
 git branch new_branch_name
 ```
+
+## Просмотр списка веток
+
+```sh
+git branch
+```
+
