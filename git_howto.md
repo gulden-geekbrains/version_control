@@ -18,4 +18,8 @@ git status
 git diff
 ```
 
+## Создание новой ветки и переход в неё
 
+```sh
+git branch new_branch_name
+```
