@@ -72,3 +72,11 @@
     ```sh
     git branch -M main
     ```
+19. Связывание локального и удалённого репозиториев
+    ```sh
+    git remote add origin <url_repository>
+    ```
+20. Выталкивание всех изменений на удалённый репозиторий в основную ветку main
+    ```sh
+    git push -u origin main
+    ```
