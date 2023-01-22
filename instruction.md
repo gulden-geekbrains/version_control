@@ -90,4 +90,4 @@ align  | align  | align
 
      git push
 Git предложит корректную команду для переноса на github, копируем её и делаем.
-Переходим на свою страницу репозитория. Выбираем ветку updatereadme и жмем кнопку Contribute & pull request.
+Переходим на свою страницу репозитория. Выбираем ветку updatereadme и жмем кнопку Compare & pull request.
