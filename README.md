@@ -32,7 +32,10 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 Можно прописать настройки для подсоединения по ssh
 ```sh
 git config remote.origin.url git@github.com:gitusername/reponame
+# Добавляю небольшие свои изменения, надеюсь, в это раз удачно .
+4. Прикладываю изменения в виде фото 
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+[фото] (https://icdn.lenta.ru/images/2022/04/21/10/20220421100508310/owl_detail_240_ae7ce4803c0b501b508e52537036a11d.jpeg)
 ```
 # Как подружить git с github под Windows 10
 
