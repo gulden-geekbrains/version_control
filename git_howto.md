@@ -12,3 +12,8 @@ git init
 git status
 ```
 
+## Клонирование репозитория
+
+```sh
+git clone
+```
