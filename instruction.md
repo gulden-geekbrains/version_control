@@ -58,3 +58,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+Выполняю домашнее задание по контролю версий 
+
+# Студент Turasov Mikhail
