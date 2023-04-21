@@ -1,41 +1,81 @@
-﻿# Это репозиторий для обучения pull request
+﻿# Подсказка по GIT
 
-## Первые шаги
-
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
-2. Выполняем команду клонирования из своей fork-копии
+Создание репозитория 
 ```sh
-git clone git@github.com:*YOURE_GITHUB*/version_control.git
+git init
 ```
-3. Создаем новую ветку и вносим необходимые изменения в файл
+Добавление содержимого рабочего каталога 
 ```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
-git commit -m "Добавили инструкцию как создать pull request"
+git add <file_name>
 ```
-4. Делаем push  
+Фиксирование или сохранение добавленного содержимого
 ```sh
-git push --set-upstream origin updatereadme
+git commit -m "Message"
 ```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
-
-## Заметки
-
-Что бы сделать push от другого пользователя необходимо выполнить команду
+Просмотр сохраненных версий в полном формате
 ```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+git log
 ```
-
-вместо *user-private-key* подставьте свой ключ
-
-Можно прописать настройки для подсоединения по ssh
+Просмотр сохраненных версий в сокращенном формате
 ```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+git log --oneline
 ```
-# Как подружить git с github под Windows 10
+Переключение между ветками 
+```sh
+git log checkout <branch_name>
+```
+Команда возврата в актуальную версию для продолжения работы
+```sh
+git checkout master
+```
+Просмотр разницы между текущим файлом 
+и сохранённым
+```sh
+git diff
+```
+Отображение всех веток
+```sh
+git branch
+```
+Создание новой ветки 
+```sh
+git branch <branch_name>
+```
+Удаление ветки 
+```sh
+git branch -d <branch_name>
+```
+Просмотр сохраненных версий в формате graph
+```sh
+git log --oneline –-graph
+```
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+## Работа с удаленными репозиториями в git или как сделать pull request
+1. Делаем (ответвление) репозитория fork
+2. Клонируем свою версию репозитория
+```sh
+git clone <my_fork_version_repo>
+```
+3. Создаем новую ветку 
+```sh
+git branch <branch_name>
+```
+4. Вносим свои изменения в новую ветку
+5. Добавление содержимого рабочего каталога 
+```sh
+git add <file_name>
+```
+6. Фиксирование или сохранение добавленного содержимого
+```sh
+git commit -m "Message"
+```
+7. Отправляем свою версию в свой GitHub
+Фиксирование или сохранение добавленного содержимого
+```sh
+git push --set-upstream origin description
+```
+8. На сайте GitHub нажимаем кнопку pull request
+
+
 
 
