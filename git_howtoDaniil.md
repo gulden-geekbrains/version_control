@@ -129,3 +129,8 @@ git remote show origin
 git pull
 ```
 [описание](http.example.com "Запрос изменений с удаленного репозитория")
+
+```sh
+git push --set-upstream origin 
+```
+[описание](http.example.com "Добавляет ветки в удаленный репозиторий")
