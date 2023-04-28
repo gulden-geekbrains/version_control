@@ -134,3 +134,8 @@ git pull
 git push --set-upstream origin 
 ```
 [описание](http.example.com "Добавляет ветки в удаленный репозиторий")
+
+```sh 
+git push origin --delete <namebrance>
+```
+[описание](http.example.com "Удаляет ветку в удаленном репозитории")
