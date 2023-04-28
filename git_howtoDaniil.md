@@ -144,3 +144,8 @@ git push origin --delete <namebrance>
 git pull --rebase
 ```
 [описание](http.example.com "Данный ключ говорит о том, что мы скачиваент все репозитории с сервера и пытаемся их изменить происходит слияние")
+
+```sh
+git rebase --continue
+```
+[описание](http.example.com "Фиксация изменнеий")
