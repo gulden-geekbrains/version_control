@@ -139,3 +139,8 @@ git push --set-upstream origin
 git push origin --delete <namebrance>
 ```
 [описание](http.example.com "Удаляет ветку в удаленном репозитории")
+
+```sh
+git pull --rebase
+```
+[описание](http.example.com "Данный ключ говорит о том, что мы скачиваент все репозитории с сервера и пытаемся их изменить происходит слияние")
