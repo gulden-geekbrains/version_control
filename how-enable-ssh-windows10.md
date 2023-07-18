@@ -18,3 +18,6 @@ usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
            [-w local_tun[:remote_tun]] destination [command]
 ```
 Перейдите к созданию ssh ключа.
+
+
+# изменил файл для отправки на GitHub
