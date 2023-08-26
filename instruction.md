@@ -63,3 +63,16 @@ align  | align  | align
 ```sh
 git log --all --graph --oneline --decorate
 ```
+
+## Добавление Emojis
+1. Перейти в меню ***Extensions***
+2. Набрать в поиске ***Markdown Emoji***
+3. Нажать кнопку **install**
+- :gb: :cool: :tongue:
+---
+[Коды Emojis можно посмотреть здесь](https://gist.github.com/rxaviers/7360908)
+
+---
+
+
+
