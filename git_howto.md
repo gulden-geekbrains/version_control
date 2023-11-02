@@ -68,3 +68,9 @@ git remote show origin
 ```
 команда указывает ссылки для записи(push) и считывания
 (fetch)
+
+## Удаление ветки на GitHub
+```sh
+git push origin --delete <branch_name>
+```
+удаляет ветку онлайн
