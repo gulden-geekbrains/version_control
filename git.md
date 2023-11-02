@@ -148,4 +148,8 @@ git pull
 ```sh
 git push -u origin <branch_name>
 ```
+или
+```sh
+git push
+```
 
