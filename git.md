@@ -2,8 +2,8 @@
 
 Конфигурация не сисстемная только для текущего пользователя
 ```sh
-git config --global user.name "Kovalenko Roman"
-git config --global user.email "rk-nk-sd@bk.ru"
+git config --global user.name "User Name"
+git config --global user.email "Email@yandex.ru"
 ```
 
 Конфигурация на конкретный проект
