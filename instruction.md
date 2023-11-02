@@ -55,3 +55,5 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+Скорректировали текст в файле instructions.md
