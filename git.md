@@ -8,8 +8,8 @@ git config --global user.email "Email@yandex.ru"
 
 Конфигурация на конкретный проект
 ```sh
-git config --local user.name "Kovalenko Roman"
-git config --local user.email "rk-nk-sd@bk.ru"
+git config --local user.name "User Name"
+git config --local user.email "Email@yandex.ru"
 ```
 
 Инициализация нового проекта
