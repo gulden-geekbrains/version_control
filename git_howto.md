@@ -64,6 +64,7 @@ mkdir <name_folder>
 ## Привязка удаленного репозитория 
 ```sh
 git remote -v
+git remote show origin
 ```
 команда указывает ссылки для записи(push) и считывания
 (fetch)
