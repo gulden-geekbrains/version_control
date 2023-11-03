@@ -76,6 +76,35 @@ git checkout master
 Команда показать разницу между текущим файлом и закоммиченным
 ```sh
 git diff <first 4-6 digits of the hash code of the desired commits>
- ```
+```
+## Работа с ветками
 
+Оторбражение всех веток
+ ```sh
+ git branch
+```
+Создание новой ветки
+```sh
+git branch <name_of_new_branch>
+```
+Перемещение по веткам
+ ```sh
+ git checkout <branch_name>
+ ```
+Слияние веток
+```sh
+git merge <branch_name_for_merge>
+```
+Показать коммиты вместе со слитыми
+```sh
+git log --graph
+```
+то же в коротком варианте
+```sh
+git log --oneline --graph
+``` 
+Удалить ветку
+```sh
+git branch -d <branch_name_to_delete>
+```
 
