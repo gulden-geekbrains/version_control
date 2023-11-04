@@ -39,6 +39,7 @@ Delete file in Windows:
 del <file_name>
 ```
 
+
 in Linux or MacOs:
 ```sh
 sl
@@ -128,3 +129,28 @@ A copy of the repository from github
 ```sh
 git clone 
 ``` 
+Creating a repository clone
+```sh
+git clone <link>
+```
+
+Creating a folder on the command line 
+```sh
+mkdir
+```
+
+Transition to one level higher
+```sh
+cd ..
+```
+
+Transferring modified data to a remote repository
+```sh
+git push
+```
+
+Retrieving and downloading content from a remote repository and updating the local repository immediately.
+```sh
+git pull
+````
+
