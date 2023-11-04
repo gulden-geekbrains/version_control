@@ -115,6 +115,15 @@
 | 2 | c | d |&#124;|
 | ..| ..| ..| ..|
 
+Column | Column
+------ | ------
+\| Cell \|| \| Cell \|
+
+Column | Column | Column
+:----- | :----: | -----:
+Left   | Center | Right
+align  | align  | align
+
 ### Выравнивание
 Управлять выравниванием текста в столбцах таблицы ты можешь при помощи двоеточий ( : ). Обрати внимание на двоеточия в строчке с дефисами. Текст в коде таблицы везде смещен влево, но на результате ты увидишь, что он выровнялся в ту сторону, где мы разместили двоеточия.
 Проще сначала заполнить таблицу на стороннем ресурсе 
@@ -137,7 +146,7 @@
 Например: 
 
 * [x] Изучить язык Brainfuck
-* [x] Изучить язык Malbolge
+* [ ] Изучить язык Malbolge
 * [ ] Изучить язык Python
 
 
@@ -156,6 +165,22 @@
 4. Делаем push
 * git push --set-upstream origin updatereadme
 5. Переходим на свою страницу репозитория. Выбираем ветку updatereadme и жмем кнопку Compare & pull request
+
+## Как подружить git с github под Windows 10
+### Видео заблокировано необходимо разблокировать для пользователей
+Вот видео инструкция https://youtu.be/E8cIjbJMEpE 
+
+## Заметки
+Что бы сделать push от другого пользователя необходимо выполнить команду
+```sh
+GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+```
+вместо *user-private-key* подставьте свой ключ
+Можно прописать настройки для подсоединения по ssh
+```sh
+git config remote.origin.url git@github.com:gitusername/reponame
+git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+```
 
 ## Заключение
 Еще больше полезной информации при работе с языком Markdown можно посмотреть на YouTube 
