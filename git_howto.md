@@ -12,3 +12,23 @@ git init
 git status
 ```
 
+## Клонировать репозиторий
+
+```sh
+git clone <ссылка>
+```
+
+## Стянуть репозиторий
+```sh
+git pull
+```
+
+## Залить репозиторий 
+```sh
+git push
+```
+
+## Создать pull request
+```sh
+git push --set-upstream origin remote
+```
