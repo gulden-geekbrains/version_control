@@ -55,6 +55,10 @@ git branch -d <имя_ветки>
 git status
 ```
 
+11. Сравнение изменений в файле
+```sh
+git diff
+```
 ---
 ## *Разметка Mark down*
 
