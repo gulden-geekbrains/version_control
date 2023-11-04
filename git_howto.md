@@ -71,19 +71,19 @@ git remote show origin
 ## Hабота  с ветками, в данном случае: создание "ветки" резактирования с именем *name_of_branch*
 
 ```sh
-gat branch name_of_branch
+git branch name_of_branch
 ```
 
 ## работа  с ветками, в данном случае: вывод списка веток
 
 ```sh
-gat branch
+git branch
 ```
 
 ## работа  с ветками, в данном случае: удалени "ветки" с именем *name_of_branch*
 
 ```sh
-gat branch -d name_of_branch
+git branch -d name_of_branch
 ```
 
 ## Переход к выбрвнной сохраненной версии изменеий *checkpoint*/к "ветке" *name_of_branch*
