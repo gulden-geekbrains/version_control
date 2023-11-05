@@ -91,4 +91,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 * Отправляем свою версию в свой GitHub
 * На сайте GitHub нажимаем кнопку pull request
 
+ссылка на репазиторий домащнего задания https://github.com/crazyCat56/-3.git
+
+
 
