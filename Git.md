@@ -82,6 +82,10 @@ git pull
 ```sh
 git push 
 ```
+Записать отдельную ветку {Из ветки, котороую хотим добавить} (см. подсказку при git push)
+```
+git push --set-upstream origin <имя ветки>
+```
 
 ## Полезные ссылки на будущее
 1. Советы по работе [habr](https://habr.com/ru/companies/sberbank/articles/662744/ "https://habr.com/ru/companies/sberbank/articles/662744/")
