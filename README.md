@@ -39,3 +39,5 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+Я создал свою ветку и вношу изменения в файле README.md
+Вроде бы получается
