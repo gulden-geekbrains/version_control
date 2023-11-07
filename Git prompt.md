@@ -38,6 +38,21 @@ git checkout <Name>
 To create new branch
 ```sh
 git branch <Name>
+```
+
+## Remote repositorium
+
+To pull data from remote repositorium
+```sh
+git pull <link>
+```
+To Push local repositorium on GitHub.com
+```sh
+git push
+```
+When request authorisation data - go on instruction prompt
+
+
 
 
 
