@@ -50,6 +50,27 @@ Show the commit history of the currently active branch
 ```sh
 gti log
 ```
+## Working with github
+Add a git URL as an alias
+```sh
+git remote add [alias] [url]
+```
+Fetch down all the branches from that Git remote
+```sh
+git fetch [alias]
+```
+Merge a remote branch into your current branch to bring it up to date
+```sh
+git merge [alias]/[branch]
+```
+Transmit local branch commits to the remote repository branch
+```sh
+git push [alias] [branch]
+```
+Fetch and merge any commits from the tracking remote branch
+```sh
+git pull
+```
 
 
 
