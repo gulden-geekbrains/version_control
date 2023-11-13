@@ -46,4 +46,13 @@ git branch -d <branch_name>
 ```sh
 git merge <name_branch>
 ```
+## Отправляем изменения  репозиторий на Github
+```sh
+git push
+```
+## Отправляем из Github на локальный репозиторий
+```sh
+git pull
+```
+
 
