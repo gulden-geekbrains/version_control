@@ -46,3 +46,7 @@ git diff
 ```sh
 dit branch -D <имя ветки>
 ```
+Создание копии репозитория:
+```sh
+git clone
+```
