@@ -71,3 +71,8 @@ git log --oneline --graph
 ```sh
 git clone <URL>
 ```
+
+Стягивания информации с удаленного репозитория:
+```sh
+git pull
+```
