@@ -211,6 +211,5 @@ git reset
 ```sh
 git remote add awesomeapp https://github.com/someurl..```
 
-.
-
+..
 
