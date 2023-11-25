@@ -64,3 +64,8 @@ git clone git@github.com:*YOURE_GITHUB*/имя_репозитория.git
 ```sh
 git checkout -b имя_ветки
 ```
+
+Загрузка свой версии репозитория на удаленный сервер
+```sh
+git push
+```
