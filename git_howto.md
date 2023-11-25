@@ -69,3 +69,8 @@ git checkout -b имя_ветки
 ```sh
 git push
 ```
+
+Загрузка и создание новой ветки на удаленном репозитории
+```sh
+git push --set-upstream origin имя_новой_ветки
+```
