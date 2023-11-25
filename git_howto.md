@@ -49,7 +49,13 @@ git merge имя_ветки
 ```sh
 git branch -d имя_ветки
 ```
+
 Отображение commit в виде графического древа.
 ```sh
 git log --oneline --graph
+```
+
+Копирование репозитория из удаленного хранилища
+```sh
+git clone git@github.com:*YOURE_GITHUB*/имя_репозитория.git
 ```
