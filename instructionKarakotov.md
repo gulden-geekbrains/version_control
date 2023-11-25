@@ -70,6 +70,16 @@ git merge (имя_ветки)
 ```sh
 git checkout
 ```
+# Переименование ветки:
+
+```sh
+git branch -m [<старое_имя>] <новое_имя>
+```
+Например:
+
+```sh
+git branch -m feature-1 feature-2
+```
 
 # Удаление ветки:
 
@@ -106,6 +116,17 @@ git push
 
 ```sh
 git pull --rebase
+```
+
+# Переименовать ветку на сервере:
+
+```sh
+git push origin :<старое_имя> <новое_имя>
+```
+Например:
+
+```sh
+git push origin :feature-1 new-feature-2
 ```
 
 # Работа с чужим репозиторием
