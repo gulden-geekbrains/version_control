@@ -45,7 +45,7 @@ log --oneline
 git checkout
 git checkout master
 
-# Добавим как доабавлять каритнки в Markdown
+# Добавим как добавлять картинки в Markdown
 
 Это лого
 ![Лого](лого.png)
