@@ -34,3 +34,36 @@ text2
 # Добавим как добавлять картинки в Markdown
 Это собака в вет лечебнице
 ![Dog](149268689480078.jpg)
+
+# ИНСТРУКЦИЯ ПО PULL REQUESTS
+
+## Перенос в репозторий на gitHub
+```sh
+git push
+```
+
+## Перенос в локальный репозиторий с gitHub
+```sh
+git pull
+```
+
+## Скопировать чужой репозиторий с gitHub
+```sh
+git clone
+```
+## Конфликт локального с удаленным репозиторием с gitHub
+```sh
+git pull –rebase 
+git rebase --continue
+```
+## Создать соединение локального с удаленным репозиторием с gitHub
+```sh
+git init
+git add ВашФайл.md
+git commit -m "first commit"
+git branch -M main
+Для Удаленного
+git remote add origin https://github.com/Ссылка_вашего_репозитория.git
+Должно появиться окно подтверждения для связи с GitHub. Подтверждаем.
+git push -u origin main
+```
