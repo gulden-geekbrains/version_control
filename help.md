@@ -77,6 +77,41 @@ git merge
 clear
 ```
 
+14) 
+```sh
+git clone
+```
+
+15) 
+```sh
+git push 
+```
+
+16) 
+```sh
+git pull
+```
+
+17) 
+```sh
+git pull –-rebase
+```
+
+18) 
+```sh
+git branch -M <Имя_ветки> 
+```
+
+19) 
+```sh
+mkdir <Имя_новой_папки> 
+```
+
+20) 
+```sh
+
+```
+
 # Как добавлять картинки в Markdown
 Это картинка
 ![Картинка](kartinka2.jpg)
