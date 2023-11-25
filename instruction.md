@@ -55,3 +55,15 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Как отправить файл на удаленный сервер Github
+
+```sh
+git push
+```
+
+## Как выкачать файл из удаленного сервера Github
+
+```sh
+git pull
+```
