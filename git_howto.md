@@ -59,3 +59,8 @@ git log --oneline --graph
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/имя_репозитория.git
 ```
+
+Создание новой ветки и переход на нее
+```sh
+git checkout -b имя_ветки
+```
