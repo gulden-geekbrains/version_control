@@ -55,6 +55,10 @@ git clone <link>
 ```sh
 git push
 ```
+Загрузить текущую ветку на Github
+```sh
+git push --set-upstream origin <branch_name>
+```
 Выгрузить репозиторий с Github
 ```sh
 git pull
