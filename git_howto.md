@@ -99,10 +99,44 @@ git branch -M main
 git push -u origin main
 ```
 Все на удаленном репозитории закоммитились все изменения из локального репозитрия!
- 
+
+ Теперь для добавления изменений из ветки main можно просто делать:
+ ```sh
+ git push
+ ```
+Чтобы вытолкнуть другую ветку нужно на нее перейти и попробовать прием выше:
+```sh
+git branch new_branch
+git checkout new_branch
+//Добавить изменений в любой файл//
+git add git_howto.md
+git commit -m "комментарий"
+git push
+```
+Git покажет нам следующее сообщение:
+```sh
+fatal: The current branch new_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin new_branch
+```
+Не будем спорить с git'ом сделаем как он говорит
+```sh
+git push --set-upstream origin new_branch
+```
+Теперь все ок! ветка запушилась смотрим на github.com там появилась новая ветка!
+
  Теперь можно попробовать обратный процесс:
  На сайте github.com изменим наш файл и закоммитим эти изменения прямо на сайте.
  Теперь чтобы получить эти же изменения в локальный репозиторий нужно выполнить команду:
  ```sh
  git pull
+```
+Чтобы посмотреть репозитории в которые мы push'им и из которых pull'им:
+```sh
+git remote -v
+```
+Для удаления ветки удаленного репозитория через bash:
+```sh
+git push origin --delete new_branch
 ```
