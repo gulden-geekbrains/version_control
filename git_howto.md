@@ -144,3 +144,7 @@ git remote -v
 ```sh
 git push origin --delete new_branch
 ```
+Для получения из удаленного репозитория для слияния нашей ветки и удаленной необходимо сделать так:
+```sh
+git pull --rebase
+```
