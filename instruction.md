@@ -1,57 +1,70 @@
 # Инструкция по языку MarkDown
 
-Новая строка - это олна пустая строка
+## Стилизация текста 
+Обычный текст набираем как есть.
 
-**Полужирный текст**
+Новая строка.
 
-*Курсив текст*
+**Полужирный текст** 
 
-## Цитирование
-> Первый уровень
+*Курсив*
+
+## Цитирование в языке MarkDown
+> Первый уровень цитирования
 >> Второй уровень
 
 ## Списки
-### Ненумерованные списки
-* Лист 1
-* Лист 2
-### Нумерованные списки
-1. Лист 1
-2. Лист 2
-3. Лист 3
+### Ненумерованный список
+* Лист
+* Лист 
+
+### Нумерованный список
+1. Лист
+2. Лист 
 
 ## WEB ссылки
 Текст [пример ссылки](http.example.com "Всплывающая подсказка")
 
-## Работа с таблицами
+# Добавим как добалять картинки в Markdown
+Это кот
+![](Matroskin.jpeg)
 
-Буква | Цифра | Символ
------- | ------|----------
-a      | 4     | $
-x      | 365    | (
-b      |       | ^  
+# Это репозиторий для обучения pull request
 
-Буква|Цифра|Символ
----|---|---
-a|4|$
- |365|(
-b| |^  
+## Первые шаги
 
-Column | Column
------- | ------
-\| Cell \|| \| Cell \|  
+1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
+2. Выполняем команду клонирования из своей fork-копии
+```sh
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
+3. Создаем новую ветку и вносим необходимые изменения в файл
+```sh
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+4. Делаем push  
+```sh
+git push --set-upstream origin updatereadme
+```
+5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
+## Заметки
 
-Column | Column | Column
-:----- | :----: | -----:
-Left   | Center | Right
-align  | align  | align
+Что бы сделать push от другого пользователя необходимо выполнить команду
+```sh
+GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+```
 
-## Картинки
+вместо *user-private-key* подставьте свой ключ
 
-### Это яблоко
+Можно прописать настройки для подсоединения по ssh
+```sh
+git config remote.origin.url git@github.com:gitusername/reponame
+git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+```
+# Как подружить git с github под Windows 10
 
-![apple](apple.jpg)
-
-### Это апельсин
-
-![orange](orange.png)
+Вот видео инструкция https://youtu.be/E8cIjbJMEpE
