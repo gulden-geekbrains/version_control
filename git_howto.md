@@ -124,7 +124,7 @@ To push the current branch and set the remote as upstream, use
 ```sh
 git push --set-upstream origin new_branch
 ```
-После этих действий достаточно находясь на ветке ```new_branch``` написать: или не писать для конфликта
+После этих действий достаточно находясь на ветке ```new_branch``` написать: писать или не писать вот в чем вопрос
 ```sh
 git push
 ```
