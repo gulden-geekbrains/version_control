@@ -124,6 +124,10 @@ To push the current branch and set the remote as upstream, use
 ```sh
 git push --set-upstream origin new_branch
 ```
+После этих действий достаточно находясь на ветке ```new_branch``` написать: или не писать для конфликта
+```sh
+git push
+```
 Теперь все ок! ветка запушилась смотрим на github.com там появилась новая ветка!
 
  Теперь можно попробовать обратный процесс:
