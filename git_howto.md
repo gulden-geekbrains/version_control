@@ -12,3 +12,4 @@ git init
 git status
 ```
 
+привет
