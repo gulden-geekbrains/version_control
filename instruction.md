@@ -64,3 +64,7 @@ align  | align  | align
 
 ## git push-отпровлять локальную версию репозитория на внешний.
 
+## Укажим ссылку на свой ранее созданный репозиторий.
+
+https://github.com/Wowan55555/Project-evolution.git
+
