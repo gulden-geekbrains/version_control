@@ -38,4 +38,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+Добавляем команду PULL для сохранения в удалённый репозиторий:
+```sh
+git pull https://github.com/alex40z/version_control
+```
