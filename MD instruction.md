@@ -34,11 +34,23 @@
 
 > **git checkout -b branch_name** - одновременно создаем и переходим на новую ветку.
 
-> **git log --graph** - выводим список коммитов в виде графа/дерева
+> **git log --graph** - выводим список коммитов в виде графа/дерева.
+
+git log --all --oneline
+
+git log --all --oneline –graph
 
 > **git merge branch_name** - слияние ветки branch_name с **текущей** веткой.
 
 > **cd folder_name** - (change directory) перемещение в другую папку (директорию).
+
+> **mkdir** - 
+
+> **mkdir** -
+
+> **mkdir** -
+
+> **mkdir** -
 
 - ## Синтаксис языка MarkDown
 
