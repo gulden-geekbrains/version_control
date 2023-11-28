@@ -34,17 +34,11 @@
 
 > **git checkout -b branch_name** - одновременно создаем и переходим на новую ветку.
 
-> **git log --graph** - выводим список коммитов в виде графа/дерева.
-
-git log --all --oneline
-
-git log --all --oneline –graph
+> **git log --graph** - выводим список коммитов в виде графа/дерева
 
 > **git merge branch_name** - слияние ветки branch_name с **текущей** веткой.
 
 > **cd folder_name** - (change directory) перемещение в другую папку (директорию).
-
-> **mkdir folder_name** -  команда для создания новых каталогов (новой папки).
 
 - ## Синтаксис языка MarkDown
 
@@ -121,5 +115,11 @@ git log --all --oneline –graph
 
 Для более подробной информации о добавление ссылок смотрите [Инструкция по созданию ссылок в MarkDown](https://learn.microsoft.com/ru-ru/contribute/content/how-to-write-links).
 
+
+### Заключение
+
 > Другие команды смотри в [Справочные материалы по MarkDown](https://learn.microsoft.com/ru-ru/contribute/content/markdown-reference).
 
+***Всем спасибо за внимание!***
+
+![Картинка "Спасибо за внимание с Наруто"](https://avatars.dzeninfra.ru/get-zen_doc/3137181/pub_5f077ca0aec27a48f5162825_5f2d88809db0e919c6c2f675/scale_1200)
