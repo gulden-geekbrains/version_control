@@ -38,4 +38,8 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+# Ссылка на репозиторий с домашним заданием
+```sh
+https://github.com/Malakhise/Test1.git
+```sh
 
