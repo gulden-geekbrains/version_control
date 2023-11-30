@@ -41,5 +41,5 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 # Ссылка на репозиторий с домашним заданием
 ```sh
 https://github.com/Malakhise/Test1.git
-```sh
+```
 
