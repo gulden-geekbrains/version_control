@@ -30,4 +30,6 @@ del <filename>
 
 ## WEB ссылки
  https://proglib.io/p/git-cheatsheet "Шпаргалка по git"
+
+ FINISH
  
