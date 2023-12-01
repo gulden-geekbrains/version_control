@@ -86,6 +86,11 @@ git push
 git pull
 ```
 
+Отправка изменений в удалённый репозиторий
+```sh
+git push origin main
+```
+
 Слияние веток
 ```sh
 git merge
@@ -94,4 +99,24 @@ git merge
 Клонирование репозитория 
 ```sh
 git clone <ссылка на клонированный репозиторий>
+```
+
+Стереть удалённую ветку
+```sh
+git push origin --delete existing_branch_name
+```
+
+Восстанавливает конфликтующие файлы до стабильного состояния
+```sh
+git reset
+```
+
+Cведения об удалённом репозитории
+```sh
+git remote show <origin>
+```
+
+Использование перебазирования
+```sh
+git rebase branch_name
 ```
