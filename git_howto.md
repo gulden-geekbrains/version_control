@@ -82,3 +82,8 @@ del <file name>
  ```sh
  git log --graph
  ```
+
+## Команда для выведения дерева слияний и коммитов с разных веток в строку
+ ```sh
+ git log --oneline --graph
+ ```
