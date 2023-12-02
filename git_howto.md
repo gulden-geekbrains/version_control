@@ -108,3 +108,8 @@ del <file name>
  ```sh
  git pull
  ```
+
+## Команда для загрузки вашей рабочей ветки в удалённый ревозиторий Gitub
+ ```sh
+git push --set-upstream origin nameBranch
+ ```
