@@ -57,3 +57,8 @@ del <file name>
  ```sh
  git log --oneline
  ```
+
+## Команда для визуализирования всех веток
+ ```sh
+ git branch
+ ```
