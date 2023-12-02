@@ -23,3 +23,9 @@ git status
  dir
  ```
 
+## Удалние файлов Для Windows
+ ```sh
+del <file name>
+ ``
+
+
