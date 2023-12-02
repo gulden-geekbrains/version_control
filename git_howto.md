@@ -62,3 +62,8 @@ del <file name>
  ```sh
  git branch
  ```
+
+## Команда для создания новой ветки
+ ```sh
+ git branch <имя_ветки>
+ ```
