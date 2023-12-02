@@ -67,3 +67,8 @@ del <file name>
  ```sh
  git branch <имя_ветки>
  ```
+
+## Команда для удаления ветки
+ ```sh
+ git branch -d имя ветки
+ ```
