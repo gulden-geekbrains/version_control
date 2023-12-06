@@ -21,3 +21,8 @@ git add
 ```sh
 git commit -m "Message text"
 ```
+
+## Просмотр истории коммитов
+```sh
+git log
+```
