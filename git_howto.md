@@ -16,3 +16,8 @@ git status
 ```sh
 git add
 ```
+
+## Команда для записи индексированных изменений в репозиторий Git
+```sh
+git commit -m "Message text"
+```
