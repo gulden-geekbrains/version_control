@@ -32,65 +32,80 @@ rm <filename>
 ```
 Инициализация локального репозитория
 ```sh
-init
+git init
 ```
 
 Получить информацию о текущем статусе
 ```sh
-status
+git status
 ```
 
 Добавить файлы к следующему коммиту
 ```sh
-add
+git add
 ```
 
 Создание коммита
 ```sh
-commit -m "message"
+git commit -m "message"
 ```
 
 Посмотреть коммиты
 ```sh
-log
+git log
 ```
 
 Посмотреть коммиты в одну строку
 ```sh
-log --oneline
+git log --oneline
 ```
 
 Перемещение по веткам
 ```sh
-checkout <имя_ветки>
+git checkout <имя_ветки>
 ```
 
 Вернуться к актуальному коммиту
 ```sh
-checkout master
+git checkout master
 ```
 
 Посмотреть изменения
 ```sh
-diff
+git diff
 ```
 
 Отображение всех веток
 ```sh
-branch
+git branch
 ```
 
 Создание новой ветки
 ```sh
-branch <имя_ветки>
+git branch <имя_ветки>
 ```
 
 Удаление ветки
 ```sh
-branch -d <имя_ветки>
+git branch -d <имя_ветки>
 ```
 
 Показывает наглядное слияние веток
 ```sh
-log --oneline --graph
+git log --oneline --graph
+```
+
+Клонирование внешнего репозитория на локальный ПК
+```sh
+git clone <url-адрес репозитория>
+```
+
+Получение изменений и слияние с локальной версией
+```sh
+git pull
+```
+
+Отправляет локальную версию репозитория на внешний
+```sh
+git push
 ```
