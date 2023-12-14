@@ -17,12 +17,13 @@ git add
 git commit -m “message”
 ```
 Вывод на экран истории всех коммитов с их хеш-кодами
-```sh
-git log						<-полный список
-git log --oneline			<-сокращенный список
-git log --graph				<-графический вид
-git log --oneline --graph	<-сокращенный графический
-```
+Команда | Описание
+---|---
+git log | полный список
+git log --oneline | сокращенный список
+git log --graph	| графический вид
+git log --oneline --graph |сокращенный графический
+
 Переход от одного коммита к другому
 ```sh
 git checkout [хеш-код]
