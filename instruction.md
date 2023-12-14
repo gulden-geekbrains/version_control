@@ -72,5 +72,6 @@ git pull
 ``````
 git push
 ``````
+Ссылка на свой  подготовленный репозиторий
 
 https://github.com/evgen0404/version_control.git
