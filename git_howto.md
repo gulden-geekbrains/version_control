@@ -67,3 +67,16 @@ git branch <branch>
 ```sh
 git branch -d <branch>
 ```
+
+Отправить в удаленный репозиторий
+
+```sh
+git push 
+git push -u origin <branch>
+```
+
+Забрать из удаленного репозитория
+
+```sh
+git pull 
+```
