@@ -61,3 +61,8 @@ git remote add origin <адрес_удаленного_репозитория>
 ```sh
 git push -u origin main
 ```
+
+4. Для контроля версий в Git
+```sh
+git fetch
+```
