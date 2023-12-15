@@ -1,5 +1,13 @@
 ﻿# Это репозиторий для обучения pull request
 
+это учебный форк для задания
+
+https://github.com/A-Loading/version_control
+
+это мой первый репозиторий для гит , гитхаб и урока №3
+
+https://github.com/A-Loading/first_git_repository
+
 ## Первые шаги
 
 1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
