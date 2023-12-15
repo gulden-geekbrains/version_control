@@ -14,8 +14,8 @@ git config --global user.
 | git status| выводит статус дириктории | -<опция> - - <путь к папке> |
 | git branch | показывает \ создвёт ответвления | 1. удаление -d <ветка> - - Delete <ветка> 2. создание и переход - b|
 | git merge | обединяет ветвления в вашу текущюю ветку | - |
-| git remote | установка отслеживаемых репозиториев | add [-t <branch>] [-m <master>] <name> <URL> установка ; -v отображение установок ; SHOW развёрнутая информация|
+| git remote | установка отслеживаемых репозиториев | add _-t <branch>_ _-m <master>_ <name> <URL> установка ; -v отображение установок ; SHOW развёрнутая информация|
 | git clone | копировать репозиторий из | <репозиторий> (путь или из ремоут URL или анотация из команды выше)|
-| git pull ] | получить репозиторий из вне | [<options>] [<repository> [<refspec>…​] ;--rebase (получить с наложением)|
+| git pull _ | получить репозиторий из вне | _<options>_ _<repository> _<refspec>…​_ ;--rebase (получить с наложением)|
 |git push|отправка репозитория| --<options> <repository> |
 |git-rebase|Reapply commits on top of another base tip нов поверх старых комит| (--continue ; --skip ; --abort ; --quit ; --edit-todo ; --show-current-patch)|
