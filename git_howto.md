@@ -18,4 +18,9 @@ git status
 ```sh
 git clone <ссылка HTTPS>
 ```
+### Привязать удаленный репозиторий к гиту на компьютере
+
+```sh
+git remote add origin <ссылка>
+```
 
