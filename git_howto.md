@@ -23,4 +23,8 @@ git remote
 ```sh
 git remote add
 ```
+## Получение изменений из удалённой ветки
+```sh
+git pull
+```
 
