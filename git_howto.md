@@ -35,4 +35,8 @@ git push <remote-name> <branch-name>
 ```sh
 git remote show <remote>
 ```
+## Удаление удалённых репозиториев
+```sh
+git remote rm
+```
 
