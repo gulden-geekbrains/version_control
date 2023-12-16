@@ -28,4 +28,8 @@ git remote add origin <ссылка>
 ```sh
 git push
 ```
+### Передача данных со второго репозитория
 
+```sh
+git pull
+```
