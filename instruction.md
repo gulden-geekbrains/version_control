@@ -48,9 +48,9 @@ align  | align  | align
 
 ## Картинки
 
-### Это яблоко
+### Это фотозона
 
-![apple](apple.jpg)
+![photo](mapping.png)
 
 ### Это апельсин
 
