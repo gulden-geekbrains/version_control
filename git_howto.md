@@ -27,4 +27,8 @@ git remote add
 ```sh
 git pull
 ```
+## Отправка изменений в удалённый репозиторий
+```sh
+git push <remote-name> <branch-name>
+```
 
