@@ -143,3 +143,20 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+
+# ТАКЖЕ
+
+```sh
+esc :wq "выйти из WIM редактора где w- write, а q - quit " 
+```
+```sh
+cd .. "перейти в директорию на 1 уровень выше" 
+```
+```sh
+mkdir new_file "mkdir- СОЗДАТЬ new_file- имя нового файла " тоесть можно создать файл сразу в терминале 
+```
+
+```sh
+git push origin --delete название ветки              "удалить ветку из ГИТХАБА при помощи терминала" 
+```
+
