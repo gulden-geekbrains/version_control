@@ -31,4 +31,8 @@ git pull
 ```sh
 git push <remote-name> <branch-name>
 ```
+## Просмотр удалённого репозитория
+```sh
+git remote show <remote>
+```
 
