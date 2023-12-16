@@ -23,4 +23,9 @@ git clone <ссылка HTTPS>
 ```sh
 git remote add origin <ссылка>
 ```
+### Передача данных на второй репозиторий
+
+```sh
+git push
+```
 
