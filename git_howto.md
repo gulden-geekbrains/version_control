@@ -19,4 +19,8 @@ git clone
 ```sh
 git remote
 ```
+## Добавление удаленных репозиториев
+```sh
+git remote add
+```
 
