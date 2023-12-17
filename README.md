@@ -38,4 +38,8 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+# Как отменить изменения
+Если что-то пошло совсем не так как хотелось, изменения можно «откатить». Когда изменённый файл ещё не проиндексирован, сделать это просто:
+```sh
+git checkout -- myfile
+```
