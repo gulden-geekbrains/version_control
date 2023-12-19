@@ -20,22 +20,22 @@ git push --set-upstream origin updatereadme
 ```
 5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
-## Заметки
+## Несколько команд **GIT** для удобство пользования
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
-```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+1. Команда для переименования ветки 
+
+```
+git branch -M новое имя
 ```
 
-вместо *user-private-key* подставьте свой ключ
+2. Для удобства поиска по коммитам можно использовать команду
 
-Можно прописать настройки для подсоединения по ssh
-```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+``` 
+git checkout branch^ 
 ```
-# Как подружить git с github под Windows 10
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+> значок *"^"* называется в данном случае крышей
 
+Она позволяет переместиться на предпоследний коммит
 
+3.
