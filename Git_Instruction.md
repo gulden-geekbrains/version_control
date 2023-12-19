@@ -48,7 +48,7 @@
 
 # *Информация была по заимствована у образовательного портала [skillbox.ru](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-18 )*
 
-# __Дополнение инструкции для работы с GIHUB__
+# __Дополнение инструкции для работы с GITHUB__
 
 
 # *Добавление удалённого репозитория*
