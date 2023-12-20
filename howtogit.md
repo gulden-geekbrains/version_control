@@ -47,7 +47,10 @@ git log --graph - to see the commits in all branches
 ```sh
 git clone <link> - clones inf. from hub to your PC 
 ```
-## *** Push files from PC to the github***
+## ***Push files from PC to the github***
 ```sh
 git push - push files to hub
 ```
+### ***Pull edited files from the github***
+```sh
+git pull - pull files from github to PC
