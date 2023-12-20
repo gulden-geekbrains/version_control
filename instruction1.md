@@ -20,3 +20,4 @@ kak sozdat' citaty v markdown
 dobavim text 
 ## kak delat' ssilki web 
 text [primer ssilki](htpp.example.com "vsplivayshaya podskazka")
+Working with remote github forks, new commands (pull,push etc..)
