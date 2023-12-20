@@ -45,4 +45,9 @@ git log --graph - to see the commits in all branches
 ```
 # ***GITHUB INSTRUCTION REMOTE FORK***
 ```sh
-git clone - clones inf. from hub to your PC
+git clone <link> - clones inf. from hub to your PC 
+```
+## *** Push files from PC to the github***
+```sh
+git push - push files to hub
+```
