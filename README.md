@@ -39,3 +39,22 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+## Отправка изменений в удалённый репозиторий
+```sh
+git push <Название ветки>
+```
+
+## Стягивание данных с сервера
+```sh
+git pull
+```
+
+## Переименование удалённых репозиториев
+```sh
+git remote rename <Изначальное название> <Название которое мы хотим сделать>
+```
+
+## Удаление удалённых репозиториев
+```sh
+git remote remove <Название файла>
+```
