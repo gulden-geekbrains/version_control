@@ -59,7 +59,7 @@ git push --set-upstream origin <your_branch>
 ```
 ## Для удаления ветки в удаленном репозитории
 ```sh
-got push origin --delet <your_branch>
+git push origin --delet <your_branch>
 ```
 ## Слияние изменений в локальном и удаленном репозитории при конфликте изменений
 ```sh
