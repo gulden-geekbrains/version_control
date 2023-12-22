@@ -111,6 +111,7 @@ git branch -d <имя ветки>
 ```sh
 git log --graph
 ```
+
 # Это репозиторий для обучения pull request
 
 ## Первые шаги
@@ -147,6 +148,7 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
+
 # Как подружить git с github под Windows 10
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+Вот видео инструкция https://youtu.be/E8cIjbJMEpE 
