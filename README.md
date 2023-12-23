@@ -7,7 +7,7 @@
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/version_control.git
 ```
-3. Создаем новую ветку и вносим необходимые изменения в файл
+3. Создаем новую ветку updatereadme и вносим необходимые изменения в файл
 ```sh
 git checkout -b updatereadme
 vim README.md
