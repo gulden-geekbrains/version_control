@@ -7,7 +7,7 @@
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/version_control.git
 ```
-3. Создаем новую ветку и вносим необходимые изменения в файл
+3. Создаем новую ветку updatereadme и вносим необходимые изменения в файл
 ```sh
 git checkout -b updatereadme
 vim README.md
@@ -38,4 +38,12 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+## добавляем инструкцию для Pull request
 
+Зайдите на страницу вашего форка.
+Справа от выпадающего меню с выбором ветки есть кнопка «New pull request».
+Нажмите её.
+В окне сравнения веток выберите базовый репозиторий, в который будет создаваться PR, и базовую ветку в этом репозитории (обычно master).
+Нажмите кнопку «Create pull request».
+В окне ввода сообщения Pull Request напишите высокоуровневое описание того, какие изменения сделаны.
+Нажмите «Create pull request».
