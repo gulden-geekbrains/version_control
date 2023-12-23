@@ -39,3 +39,15 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+# Инструкция по связке GIT - GitHub
+
+Что бы склонировать репозиторий необходимо дать команду 
+
+> **git clone URL**
+клонируется репозиторий по адресу **URL**
+
+> **git pull** 
+получение изменений и слияние с локальной версией
+> **git push** 
+отправляет локальную версию репозитория на внешний
+Lyapina Valeriya
