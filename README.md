@@ -34,8 +34,13 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
+
+Удаление удалённой ветки
+```sh
+git push --delete origin existing_branch
+```
+
 # Как подружить git с github под Windows 10
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
-
 
