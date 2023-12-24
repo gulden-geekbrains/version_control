@@ -34,8 +34,24 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
+
+Удаление удалённой ветки
+```sh
+git push --delete origin existing_branch
+```
+
 # Как подружить git с github под Windows 10
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+# При работе с Git может возникнуть такая ситуация: команда git push не заливает изменения на сервер, а команда git status показывает $ git status - HEAD detached from 87dc87b
 
+Это может означать, что вы делали какую-то навигацию по истории коммитов, и неправильно вернулись к последнему коммиту.
+
+Исправить эту проблему можно так:
+```sh
+git branch tempgit checkout tempgit branch -f master tempgit checkout master
+```
+```sh
+git branch -d temp
+```
