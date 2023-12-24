@@ -79,4 +79,26 @@ Changes to be committed:
         modified:   cmd.md
         modified:   insruction.md
 
+Отправить в git сервер
+```sh
+git push
+```
+
+копировать на локальный сервер
+```sh
+git pull
+```
+
+клонирование другой репозиторий
+```sh
+git clone
+```
+покажет какие репозитории привязаны к аккаунту
+```sh
+git remote -v
+```
+более подробная инфа про репозитории
+```sh
+git remote show origin
+```
 
