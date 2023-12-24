@@ -44,3 +44,14 @@ git push --delete origin existing_branch
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+# При работе с Git может возникнуть такая ситуация: команда git push не заливает изменения на сервер, а команда git status показывает $ git status - HEAD detached from 87dc87b
+
+Это может означать, что вы делали какую-то навигацию по истории коммитов, и неправильно вернулись к последнему коммиту.
+
+Исправить эту проблему можно так:
+```sh
+git branch tempgit checkout tempgit branch -f master tempgit checkout master
+```
+```sh
+git branch -d temp
+```
