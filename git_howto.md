@@ -33,3 +33,7 @@ git push origin --delete new_branch
 ```sh
 git pull --rebase
 ```
+## Склонировать с удаленного репозитория
+```sh
+git clone url_remote_repository
+```
