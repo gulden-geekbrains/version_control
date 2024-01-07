@@ -21,3 +21,15 @@ git remote show
 ```sh
 git remote -v
 ```
+## Также проверить можно командой
+```sh
+git remote show origin
+```
+## Удаление ветки на удаленном репозитории
+```sh
+git push origin --delete new_branch
+```
+## Скачать с удаленного сервера актуальную версию
+```sh
+git pull --rebase
+```
