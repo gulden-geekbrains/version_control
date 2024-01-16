@@ -57,3 +57,11 @@ How to insert images: exclamation sybol, in square brackets text for the image, 
 ## Tables
 
 ## Summary
+
+## Instruction for work with remote repos
+
+1. make FORK of the repositary that we want to work on
+2. git clone of our version of the repositary
+3. create a new branch 
+4. make changes only in this branch
+5. push this changes to our account
