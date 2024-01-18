@@ -90,3 +90,15 @@ Here is how you can see it in a Terminal. The Number of a commit is given in HEX
 2. save changes to the file (CTRL+S)
 3. git add name_of_the_file.md
 4. git commit -m "Comment"
+
+## <font size = 10>Branching in GIT</font>
+
+<font size = 4>When you work with one file you can align all the changes of one user to a separate branch. Here are some useful comands in GIT how to work with branches.
+| Comand                    | Description |
+|---------------------------|---------------------------------------------|
+| git branch                | to check the current status of the branches |
+| git branch Branch_Name    | to create new branch and add it to the branches list |
+| git merge Branch_Name *    | to add all the changes from one Branch to another 
+| git branch -D Branch_Name | to delete branch from the list, and alll the changes inside of it |
+
+*NOTE! To execute merging correctly, you need to take into account the following: change your location to the master branch with comand "git checkout master" and only then execute merging with the necessary branch_name.
