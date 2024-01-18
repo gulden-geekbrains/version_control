@@ -37,16 +37,3 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 # Как подружить git с github под Windows 10
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
-
-# Как сделть форк
-
-# Как работать с удаленним репозиторий
-
-1. Создать репо в гитхаб
-2. Создать рабочую папку  и делать git init
-3. Добавитъ файл
-4. git add <filename>
-5. git commit -m "Добавили файл"
-6. git branch -M main
-7. git remote add origin <repo url>
-8. git push -u origin main
