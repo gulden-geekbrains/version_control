@@ -38,7 +38,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-# Как работать с форк
+# Как сдекать форк
 
 Добавлен скриншот пул реквеста.
 
