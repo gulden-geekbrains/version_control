@@ -38,10 +38,15 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-# Как сдекать форк
+# Как сделть форк
 
-Добавлен скриншот пул реквеста.
+# Как работать с удаленним репозиторий
 
-![скриншот](image.png)
-
-![скриншот](image-1.png)
+1. Создать репо в гитхаб
+2. Создать рабочую папку  и делать git init
+3. Добавитъ файл
+4. git add <filename>
+5. git commit -m "Добавили файл"
+6. git branch -M main
+7. git remote add origin <repo url>
+8. git push -u origin main
