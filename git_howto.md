@@ -102,3 +102,9 @@ Here is how you can see it in a Terminal. The Number of a commit is given in HEX
 | git branch -D Branch_Name | to delete branch from the list, and alll the changes inside of it |
 
 *NOTE! To execute merging correctly, you need to take into account the following: change your location to the master branch with comand "git checkout master" and only then execute merging with the necessary branch_name.
+
+how to resolve conflicts between branches.
+
+![Merge conflics](changes_in_code_after_merge.png)>
+
+To solve the conflicts between file versions do it manually or press "Accept current changes" at your will.</font>
