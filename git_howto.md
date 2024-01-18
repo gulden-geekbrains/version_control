@@ -82,3 +82,11 @@ If you feel necessary to return backward to some previous version of your file b
 Here is how you can see it in a Terminal. The Number of a commit is given in HEX numeral system. 
 ![Commits in the log](<Commits in order.png>)</font>
 
+## <font size = 10>How to Save New Version of the File</font>
+
+<font size = 4>It is very important to follow the right order of the commands to keep all changes to your file in order. Here is the order of actions and commands to follow to get correct understanding. Follow it and you will succeed in Version Control.
+
+1. add some changes to the file 
+2. save changes to the file (CTRL+S)
+3. git add name_of_the_file.md
+4. git commit -m "Comment"
