@@ -63,4 +63,22 @@ It is not the full list of commands but we will return to them later on.</font>
 
 For more information please foolow [the link](https://medium.com/make-apps-simple/git-commands-9541debf2f4a)
 
+## <font size = 10>Commiting the File Versions through GIT</font>
+
+<font size = 4>We have already mentioned this word "comit" in the paragrap abave, so let's try to aknow;edge what it means. When you work with a file you constantly change something. the file is changing it evolves but sometimes we need to track those changes, to see the evolution. So here comes the term "comit"
+
+The following comand for GIT helps to maintain all the changes under your personal control. You can add some comment (a message to each commit)
+
+"<font color = yellow> git</font> comit -m "<font color = lightblue>Comment</font>" " - where you put your comment inside the quotation marks.
+
+If you feel necessary to return backward to some previous version of your file be sure you have commited the changes so it will help you to navigate between versions. The following commands will help you to work with some changes in the file.
+
+"<font color = yellow>git</font> restore" - you may discard all the changes to the last saved option you have on your GIT.
+
+"<font color = yellow>git</font> checkout <font color = yellow>XXXX</font> - where XXXX is first four characters of the commit you would like to return to. All of the commits have long unique codes, but only four first characters is enough.
+
+"<font color = yellow>git</font> checkout master - if you want to reeturn to the final version of the file you could just use the name "master" as it is always the last saved aand added to GIT version of the file.
+
+Here is how you can see it in a Terminal. The Number of a commit is given in HEX numeral system. 
+![Commits in the log](<Commits in order.png>)</font>
 
