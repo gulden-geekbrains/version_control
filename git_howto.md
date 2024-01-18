@@ -6,6 +6,10 @@
 
 # Подсказка по гиту
 
+<font size = 4>Here are some rules on how to work within GIT for File Version Control. Please follow the recommendations to track your file versions correctly.
+
+First things first. You need to start up the GIT. Use the following command to initialize the progrram.
+
 ## Инициализация репозитория
 
 ```sh
