@@ -16,6 +16,17 @@ First things first. You need to start up the GIT. Use the following command to i
 git init
 ```
 
+You also need to introduce yourself to the GIT as all your comits and changes to the file will be marked with your name and contact e-mail adress. So before starting work with Terminal do the following configuration commands, please.
+
+* <font color = yellow>git</font> config user.name "Alex Smith" " - Put your own name inbetween the quotation marks.
+
+* <font color = yellow>git</font> config user.email "alex.smith@gmail.com" - Put your contact e-mail adress.
+
+>Why is it important to place your true information?
+>>Because your code could be available to any person on the NET and if they want to contact you they should have your true e-mail and name so you can proove the copyright and, as a result, receive a job offer!
+
+**NOTE!** The Program is not verifying the Name and e-mail adress you may put any information you like, but it is recommended to add your TRUE information to the NET</font>
+
 ## Статус репозитория
 
 ```sh
