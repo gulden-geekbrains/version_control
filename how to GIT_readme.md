@@ -67,3 +67,8 @@ git pull requests
 ```sh
 git branch -M main
 ```
+
+Команда, которая удаляет ветку на сервере
+```sh
+git push origin --delete branch name
+```
