@@ -42,6 +42,6 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Добавлен скриншот пул реквеста.
 
-![Alt text](image.png)
+![скриншот](image.png)
 
-![Alt text](image-1.png)
+![скриншот](image-1.png)
