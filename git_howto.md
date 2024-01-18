@@ -53,4 +53,14 @@ Here is the list of the key functions at GIT to navigate
 ```sh
 git status
 ```
+"<font color = yellow>git</font> log" - shows the log of commits with indexes and all versions to the saved file
+
+"<font color = yellow>git</font> log -- oneline" - shows the log of commits with indexes in a short form
+
+"<font color = yellow>git</font> diff" - shows the differences between the last saved bersion of the file and unsaved changes.
+
+It is not the full list of commands but we will return to them later on.</font>
+
+For more information please foolow [the link](https://medium.com/make-apps-simple/git-commands-9541debf2f4a)
+
 
