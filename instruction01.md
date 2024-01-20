@@ -68,3 +68,7 @@ git clone
 ```sh
 git push
 ```
+Удаление ветки в GIT:
+```sh
+git push origin --delete <название-ветки>
+```
