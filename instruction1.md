@@ -27,4 +27,4 @@ Text [primer link](html.example.com "vslipayuwaya podskazka")
 
 # Добавим как добавлять картинки в Markdown
 Это яблоко
-![Яблоко](red_apple.jpg)
+![Яблоко](apple.jpg)
