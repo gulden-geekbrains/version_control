@@ -22,3 +22,5 @@ git clone https://github.com/<ManeOnGitHub>/version_control.git
 ```sh
 git push --set-upstream origin <BranchName>
 ```
+## Шаг шестой
+Переходим на github и нажимаем кнопку **Compare & pull request**, чтобы отправить эту вестку с внесенными изменениями владельцу репозитория
