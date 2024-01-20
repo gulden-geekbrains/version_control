@@ -76,3 +76,7 @@ git push origin --delete <название-ветки>
 ```sh
 git pull --rebase
 ```
+Извлечение содержимого из удаленного репозитория:
+```sh
+git pull
+```
