@@ -13,3 +13,5 @@ https://github.com/gulden-geekbrains/version_control
 ```sh
 git clone https://github.com/<ManeOnGitHub>/version_control.git
 ```
+## Шаг третий
+Подключаемя локально вк скопированной нами папке. Меняем директорию с помощью команды **cd** и имени папки *<version_control>*
