@@ -156,7 +156,6 @@ fork
 
     
 ----
-----
 
 ```sh
 Compare and Pull Request
