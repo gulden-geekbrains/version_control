@@ -85,7 +85,6 @@ clear
 1. Первый пункт
 2. Второй пункт
 
-
 Чтобы добавить ненумированные списки, необходимо выделить пункты звездочкой (*). Например, вот так:
 
 * Элемент 1
@@ -114,5 +113,70 @@ clear
 
 >>вот так
 
+## Добавление по Pull request
+
+# первые шаги
+
+1.Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория [https://git@github.com:gulden-geekbrains/version_control.git]
+
+2.Выполняем команду клонирования из своей fork-копии
+
+```sh 
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
+
+3. Создаем новую ветку и вносим необходимые изменения в файл
+
+```sh
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+4. Делаем push
+
+```sh
+git push --set-upstream origin updatereadme
+```
+5. Переходим на свою страницу репозитория. Выбираем ветку updatereadme и жмем кнопку **Compare& pull request**
+
+## Заметки
+
+Чтобы сделать push от другого пользователя необходимо выполнить команду 
+
+```
+sh
+GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+```
+вместо user-private-key подставить нужно свой ключ
+
+### **_могут понадобится следующие коианды для работы с удаленным репозиторием_**
+```
+sh 
+git remote show
+```
+эта команда покажет название origin,т.е связку
+```
+sh
+git remote show -v
+```
+эта команда покажет репозиторий origin более подробно 
+```
+sh
+git push -u origin main
+```
+эта команда "вытолкнет" все изменения в удаленный репозиторий origin из VSCode
+```
+sh
+git pull
+```
+эта команда позволит перенести все изменения сделанные в браузере в github в VSCode
+Если делаем изменения на одной ветке и перейдя на другую где нет никаких изменений,то при команде **git push** , ничего не изменится
+Необходимо делать **git push** именно на добавленной и измененной ветке,если мы хотим эти изменения перенести в браузер.
+```
+sh
+git push --set-upstream origin newbranch
+```
+если выходит такая подсказка в терминале,то это говорит о том, что ветка не привязана к репозиторию 
 
 ## Вывод
