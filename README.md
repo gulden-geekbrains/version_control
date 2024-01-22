@@ -38,4 +38,8 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+# Предложение в изменении
+```sh
+ git remote set-url origin https://github.com/vojjd/lison.git 
+```
+изменить адрес репозитория
