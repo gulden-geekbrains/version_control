@@ -66,5 +66,6 @@ git merge <branch_name>
 ```
 Удаление ветки 
 ```
-git branch -d <Имя_ветки>
+git branch -d <Имя_ветки>.
+
 ```

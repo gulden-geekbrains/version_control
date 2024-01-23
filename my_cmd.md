@@ -29,5 +29,6 @@ git branch
 ```
 Перемещение по веткам.
 ```
-git checkout <имя ветки>
+git checkout <имя ветки>.
+
 ```
