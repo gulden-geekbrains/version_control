@@ -40,3 +40,5 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 **git branch -M main**  (Переименовать ветку на которой находимся)
   Добавили текст 
+
+  Добавили текст через редактор в интернет браузер
