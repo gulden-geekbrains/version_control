@@ -57,3 +57,7 @@ git merge branch_name
 ```sh
 git clone <ссылка на этот репозиторий>
 ```
+## Чтобы залить изменения с github используем команду:
+```sh
+git pull
+```
