@@ -73,3 +73,7 @@ git push
 ```sh
 git branch -M <новое_имя_ветки>
 ```
+Показ заданного репозитория:
+```sh
+git remote show
+```
