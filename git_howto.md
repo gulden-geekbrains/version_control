@@ -89,3 +89,7 @@ git remote show origin
 ```sh
 git push origin --delete <имя_ветки>
 ```
+Создание новой ветки и переключение на нее:
+```sh
+git checkout -b <имя_ветки>
+```
