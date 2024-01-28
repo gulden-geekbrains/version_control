@@ -70,3 +70,12 @@ git log --oneline --graph
 ```sh
 git diff
 ```
+## *Онлайн:*
+
+git clone
+
+git push
+
+git pull
+
+## *Fork:*
