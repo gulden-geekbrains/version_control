@@ -36,3 +36,29 @@
 Заголовки пишем через #
 
 ## Заключение
+
+## Работа с удаленными репозиториями
+
+Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория.
+Выполняем команду клонирования из своей fork-копии
+
+```sh
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
+
+Создаем новую ветку и внсим неоходимые изменения в файл
+
+```sh
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+
+Делаем пуш
+
+```sh
+git push --set-upstream origin updatereadme
+```
+
+Переходим на свою страницу репозитория. Жмем кнопку Contribute и в окошке  Open pull request.
