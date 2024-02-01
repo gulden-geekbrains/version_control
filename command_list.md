@@ -96,6 +96,11 @@ git remote add origin <url>
 git push -u origin main
 ```
 
+#### Клонирование внешнего репозитория
+```sh
+git clone
+```
+
 #### Загрузка удаленного репозитория в локальный
 ```sh
 git pull
