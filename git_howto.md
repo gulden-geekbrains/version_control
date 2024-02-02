@@ -68,3 +68,48 @@ git branch -d <Имя ветки>
 ````sh
 git log --oneline --graph
 ````
+
+Просмотр удалённых URL-адресов
+````sh
+git remote -v
+````
+
+Получение дополнительных сведений об удалённом репозитории
+````sh
+git remote show origin
+````
+
+Отправка изменений в удалённый репозиторий
+````sh
+git push origin main
+````
+
+Получение изменений из удалённого репозитория
+````sh
+git pull
+````
+
+Слияние удалённого репозитория с локальным
+````sh
+git merge origin
+````
+
+Отправка новой ветки в удалённый репозиторий
+````sh
+git push -u origin new_branch
+````
+
+Удаление удалённой ветки
+````sh
+git push --delete origin existing_branch
+````
+
+Использование перебазирования
+````sh
+git rebase branch_name
+````
+
+Клонирование репозитория из GitHub
+````sh
+git clone <URL>
+````
