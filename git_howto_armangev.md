@@ -83,3 +83,13 @@ git log --oneline --graph
 ```sh
 git merge <name branch>
 ```
+
+## Отправка в вебверсию 
+```sh
+git push
+```
+
+## Загрузка из вебверсии
+```sh
+git pull
+```
