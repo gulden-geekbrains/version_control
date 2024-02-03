@@ -53,3 +53,23 @@ git branch -d <branchName>
 git merge <branchName>
 ```
 # Удалённые репозитории
+Для того, чтобы скопировать репозиторий с GitHub введите команду
+```sh
+git clone <URL>
+```
+Сервис GitHub рекомендует переименовывать основную ветку в main:
+```sh
+git branch -M main
+```
+Установить удалённый репозиторий по умолчанию:
+```sh
+git remote add origin <URL>
+```
+Показать текущий репозиторий:
+```sh
+git remote show
+```
+Показать ссылки на репозитории чтения (fetch) и записи (push):
+```sh
+git remote -v
+```
