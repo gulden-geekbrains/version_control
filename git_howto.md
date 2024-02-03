@@ -12,3 +12,8 @@ git init
 git status
 ```
 
+## Показывает ветки репозитория
+
+```sh
+git branch
+```
