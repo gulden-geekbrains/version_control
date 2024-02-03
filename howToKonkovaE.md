@@ -67,7 +67,7 @@ git remote add origin <URL>
 ```
 Показать текущий репозиторий:
 ```sh
-git remote show
+git remote show origin
 ```
 Показать ссылки на репозитории чтения (fetch) и записи (push):
 ```sh
