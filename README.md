@@ -1,42 +1,19 @@
-﻿# Это репозиторий для обучения pull request
+﻿Инструкция по работе с удалёнными репозиториями:
 
-## Первые шаги
-
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
-2. Выполняем команду клонирования из своей fork-копии
-```sh
-git clone git@github.com:*YOURE_GITHUB*/version_control.git
-```
-3. Создаем новую ветку и вносим необходимые изменения в файл
-```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
-git commit -m "Добавили инструкцию как создать pull request"
-```
-4. Делаем push  
-```sh
-git push --set-upstream origin updatereadme
-```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
-
-## Заметки
-
-Что бы сделать push от другого пользователя необходимо выполнить команду
-```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
-```
-
-вместо *user-private-key* подставьте свой ключ
-
-Можно прописать настройки для подсоединения по ssh
-```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
-```
-# Как подружить git с github под Windows 10
-
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+1. Создать аккаунт на GitHub.com или использовать свой имеющийся.
+2. Создать локальный репозиторий
+3. "Подружить" ваш локальный и удалённый репозиторий. Github при создании нового репозитория подскажет как это можно сделать. Попросит авторизоваться.
+git remote add origin https://github.com/Linnik8/repository_lesson3.git
+git branch -M main
+git push -u origin main
+4. Отправить (push) ваш локальный репозиторий в удалённый (на GitHub), при этом вам, возможно, нужно будет авторизоваться на удалённом репозитории.
+5. Провести изменения "с другого компьютера" или со своего но на Github.
+6. Выкачать (pull) актуальное состояние из удалённого репозитория. 
 
 
-Вношу изменения
+1. Делаем (fork) интересующего нас аккаунта.
+2. Мы делаем git clone для нашей версии этого репозитория.
+3. Мы создаём ветку с предлагаемыми изменениями.
+4. Производим все изменения только в этой ветке.
+5. Отправляем изменения на свой аккаунт (Push).
+6. В окне на GitHub появляется возможность отправить pull request. 
