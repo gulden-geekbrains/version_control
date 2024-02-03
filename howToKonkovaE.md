@@ -52,3 +52,4 @@ git branch -d <branchName>
 ```sh
 git merge <branchName>
 ```
+# Удалённые репозитории
