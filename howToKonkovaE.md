@@ -73,3 +73,25 @@ git remote show origin
 ```sh
 git remote -v
 ```
+Записать в удалённый репозиторий изменения:
+```sh
+git push
+```
+Записать новую ветку:
+```sh
+git push --set-upstream origin <branchname>
+```
+Скачать с репозитория:
+```sh
+git pull
+```
+При конфликте:
+```sh
+git pull --rebase
+```
+Затем после разрешения конфликта:
+```sh
+git add <filename>
+git rebase --continue
+git push
+```
