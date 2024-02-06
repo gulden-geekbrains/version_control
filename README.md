@@ -38,4 +38,28 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+##  РАбота с удаленным репозиторием 
+1. Вытолкнуть на удаленный реп
+```sh
+git push 
+```
+2.  Подтянуть удаленный на лкальный
+```sh
+git pull 
+```
+3.  Скопировать выбранный удаленный репозиорий
+```sh
+git clone 
+```
+4. Скачать все с сервера и все изменения попытаться слить 
+```sh
+git pull --rebase 
+```
+5. Фиксируем измеения  
+```sh
+git rebase -- continue 
+```
+6. Удаляем выбранную вечтку у удаленном репозитории
+```sh
+git push origin -- delete <имя ветки> 
+```
