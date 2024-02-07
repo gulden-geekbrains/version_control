@@ -46,7 +46,6 @@ Column | Column | Column
 Left   | Center | Right
 align  | align  | align
 
-## Картинки
 
 ### Это яблоко
 
