@@ -39,3 +39,14 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+
+[Ccылка на репазиторий c домашним заданием](https://github.com/ArtsiomArchiptsov/Short_IGit_Instruction.git)
+
+
+
+
+ 
+
+
+
+
