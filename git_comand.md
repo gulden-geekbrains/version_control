@@ -40,7 +40,7 @@ git branch -d <имя_ветки>
 ```sh
 git clone <ссылка с github>
 ```
-Отправить на сервер GitHUB изменения 
+Отправить на сервер Github изменения 
 ```sh
 git push
 ```
