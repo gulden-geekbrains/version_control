@@ -43,6 +43,22 @@ git checkout branch_name
  ```
  git branch -d branch_name
  ```
+ ## Команды для работы с удаленным репозиторием
+
+ * Клонирование репозитория с хаба на компьютер
+ ```
+ git clone repository_address
+ ```
+ * Выгрузка из локального репозитория на хаб
+ ```
+ git push
+ ```
+ * Скачивание из удаленного репозитория
+ ```
+ git pull
+ ```
+ 
+
 
 [Подробнее см. здесь](https://git-scm.com/docs/user-manual)
 
