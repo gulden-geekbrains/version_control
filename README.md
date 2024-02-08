@@ -40,7 +40,7 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 
 
-[Ccылка на репазиторий c домашним заданием](homewwork.md)
+[Ccылка на репазиторий c домашним заданием](homework.md)
 
 
 
