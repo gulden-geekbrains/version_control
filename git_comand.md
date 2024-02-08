@@ -36,3 +36,15 @@ git branch <имя_ветки>
 ```sh
 git branch -d <имя_ветки>
 ```
+Клонирование в локальную версию с WEB версии
+```sh
+git clone <ссылка с github>
+```
+Отправить на сервер GitHUB изменения 
+```sh
+git push
+```
+Получить изменения с Github 
+```sh
+git pull
+```
