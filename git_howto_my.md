@@ -88,3 +88,52 @@ git log --graph
         or
 git log --oneline --graph
 ```
+
+# Команды для работы с удалённым репозиторием
+When you run git branch --all, you will also see the local working branches. These can be linked with branches on the remote, or they could exist with no remote counterpart.
+
+Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
+git status: Always a good idea, this command shows you what branch you're on, what files are in the working or staging directory, and any other important information.
+
+```sh
+git clone [url]
+```
+## git push
+Uploads all local branch commits to the remote.
+```sh
+git push
+```
+Force a push that would otherwise be blocked, usually because it will delete or overwrite existing commits (Use with caution!)
+```sh
+git push -f
+```
+Useful when pushing a new branch, this creates an upstream tracking branch with a lasting relationship to your local branch
+```sh
+git push -u origin [branch]
+```
+Push all branches
+```sh
+git push --all
+```
+Publish tags that aren't yet in the remote repository
+```sh
+git push --tags
+```
+## git pull
+Updates your current local working branch with all new commits from the corresponding remote branch on GitHub.
+git pull is a combination of git fetch and git merge. 
+```sh
+git pull
+```
+Update your local working branch with commits from the remote, but rewrite history so any local commits occur after all new commits coming from the remote, avoiding a merge commit.
+```sh
+git pull --rebase
+```
+This option allows you to force a fetch of a specific remote tracking branch when using the <refspec> option that would otherwise not be fetched due to conflicts. To force Git to overwrite your current branch to match the remote tracking branch, read below about using git reset.
+```sh
+git pull --force
+```
+Fetch all remotes - this is handy if you are working on a fork or in another use case with multiple remotes.
+```sh
+git pull --all
+```
