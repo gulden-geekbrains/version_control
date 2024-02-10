@@ -61,3 +61,7 @@ git restore
 ```sh
 git remote add origin
 ```
+Команда показывает удаленные ветки и дополнительную информацию об удаленном репозитории
+```sh
+git remote show origin
+```
