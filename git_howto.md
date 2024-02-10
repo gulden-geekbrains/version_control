@@ -65,3 +65,7 @@ git remote add origin
 ```sh
 git remote show origin
 ```
+Команда, которая выталкивает все изменения на github
+```sh
+git push -u origin main
+```
