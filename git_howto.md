@@ -69,3 +69,7 @@ git remote show origin
 ```sh
 git push -u origin main
 ```
+Эта команда используется для просмотра подключенных удаленных репозиториев.
+```sh
+git remote -v
+```
