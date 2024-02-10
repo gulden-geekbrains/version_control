@@ -44,3 +44,37 @@ git log --graph
 ```sh
 git branch -d <название ветки>
 ```
+# Инструкция по удаленному репозиторию
+
+Копировать репозиторий с github
+```sh
+git clone <hpps ....>
+```
+
+Создание новой папки 
+```sh
+mkdir <name>
+```
+Переменовать ветку
+```sh
+git branch -m <name>
+```
+Удаленный репозиторий по умолчанию
+```sh
+git remote add origin hpp...
+```
+Просмотр репозитория
+```sh
+git remote show (-v)
+```
+Выталкивание команды на сервер
+```sh
+git push -u origin main
+```
+Выгрузка с сервера 
+```sh
+git pull
+```
+Решение конфликта 
+```sh
+git pull --rebase (git push)
