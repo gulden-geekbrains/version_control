@@ -81,3 +81,7 @@ git pull
 ```sh
 git push origin --delete
 ```
+Команда позволяющая объединить изменения двух веток
+```sh
+git pull --rebase
+```
