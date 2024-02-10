@@ -77,3 +77,7 @@ git remote -v
 ```sh
 git pull
 ```
+Команда для удаления ветки на удаленном репозитории
+```sh
+git push origin --delete
+```
