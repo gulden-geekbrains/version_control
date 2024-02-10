@@ -56,3 +56,8 @@ git status
 ```sh
 git restore
 ```
+
+Команда для добавления удаленного репозитория
+```sh
+git remote add origin
+```
