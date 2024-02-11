@@ -60,6 +60,8 @@ git log --graph
 git pull/push --remote
 ```
 
+аттестация
+
 ## GitHub
 
 Как предложить свои изменения проекту:
