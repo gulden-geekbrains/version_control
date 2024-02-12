@@ -300,3 +300,7 @@ git push
 ```sh
 git push --set-upstream origin <branch_name>
 ```
+Удалить ветку в удаленном репозитории можно как через браузер, так и через команду
+```sh
+git push origin --delete <branch_name>
+```
