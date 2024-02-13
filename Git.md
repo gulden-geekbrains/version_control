@@ -82,3 +82,18 @@ git log --oneline --graph
 ```sh
 :wq
 ```
+
+## Выполняем команду клонирования из своей fork-копии
+```sh
+git clone git@github.com:*YOURE_GITHUB*/version_control.git
+```
+## отправляем данные с локального репозитория 
+
+```sh
+git push 
+```
+## забираем данные на локальнвый репозиторий
+
+```sh
+git pull
+```
