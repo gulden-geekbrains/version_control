@@ -90,8 +90,5 @@ COMPARE&PULL REQUEST - отправить другому человеку
 добавить комментарий
 CREATE PULL REQUEST
 
-
-
-
 ### 
 ###
