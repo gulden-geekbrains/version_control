@@ -137,3 +137,23 @@ git pull --rebase
 ```sh
 git push --set-upstream origin "ИмяВетки"
 ```
+## Так же важно запомнить!
+создайть новый репозиторий в командной строке
+```sh
+echo "Название_Репозитория" >> README.md 
+git init
+git add README.md 
+git commit -m "первая фиксация"
+git branch -M main
+git remote add origin https://github.com/Din531199/Domashka_versonKontrol.git
+git push -u origin main
+```
+... или запустите существующий репозиторий из командной строки
+```sh
+git remote add origin https://github.com/Din531199/Domashka_versonKontrol.git
+ветвь git -M main
+git push -u origin main
+```
+
+... или импортировать код из другого репозитория
+Вы можете инициализировать этот репозиторий кодом из проекта Subversion, Mercurial или TFS.
