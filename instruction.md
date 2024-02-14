@@ -30,7 +30,10 @@
 3. Лист 3
 
 ## WEB ссылки
-Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+
+
+Пример ссылки 
+[*Справочник по Markdown от Microsoft*](https://docs.microsoft.com/ru-ru/contribute/markdown-reference)
 
 ## Работа с таблицами
 
