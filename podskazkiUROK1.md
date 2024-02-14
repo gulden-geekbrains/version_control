@@ -104,6 +104,14 @@ git log --graph
 git clone "пусть ссылка"
 ```
 
+Создаем новую ветку и вносим необходимые изменения в файл
+```sh
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+
 Отправить свои репозитории с локалки на веб версию
 ```sh
 git push
