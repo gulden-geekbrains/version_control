@@ -81,7 +81,7 @@ git clone https:\\... - копиируем репозитарий к себе н
 git remote add origin https:\\ - связываем наш репозиторий с github
 git pull - обновляем у себя
 git push - отправляем на серевер
-git push --set -uostream ... - отправляем ветку
+git push --set -upstream ... - отправляем ветку
 
 на сервере кнопки
 fork - скопировать чужой репозиторий к себе 
