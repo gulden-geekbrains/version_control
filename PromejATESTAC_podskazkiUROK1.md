@@ -148,6 +148,13 @@ git branch -M main
 git remote add origin https://github.com/Din531199/Domashka_versonKontrol.git
 git push -u origin main
 ```
+### Тоже мамое только простым языком
+Локально инициализировать гит: git init. Индексируем файлы: git add < < file > + git commit -m "Mess". После создания репо на Гитхаб появится инструкция как поженить локалку - там будут команды:
+переименование ветки master: git branch -M main
+и подключение: git remote add origin <вашhttpsна_гитхабе>
+пушим на сервер: git push -u origin main
+
+
 ... или запустите существующий репозиторий из командной строки
 ```sh
 git remote add origin https://github.com/Din531199/Domashka_versonKontrol.git
