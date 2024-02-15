@@ -182,3 +182,5 @@ git clone <URL ссылка>
 ```sh
 git push --set-upstream origin <имя_ветки>
 ```
+
+# КОНЕЦ
