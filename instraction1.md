@@ -121,3 +121,7 @@ git checkout 'master'
 ## Как добавить картинку в Markdown
 Это символ 2024 года
 ![Дракон](2024.jpg)
+
+### Это апельсины
+
+![orange](orange.png)
