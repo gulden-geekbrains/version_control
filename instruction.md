@@ -58,4 +58,4 @@ align  | align  | align
 
 ### Добавил собачку
 
-![orange](dog.png)
+![dog](dog.png)
