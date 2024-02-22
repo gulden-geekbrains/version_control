@@ -39,6 +39,9 @@ git diff
 ![Париж](image.jpeg)
 
 ## Делаем pull request
+
+**My repo - https://github.com/enj0yka/version_control_my**
+
 1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
 2. Выполняем команду клонирования из своей fork-копии
 ```sh
