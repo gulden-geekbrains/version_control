@@ -120,7 +120,7 @@ git remote add <repository_name> link
 
 Далее для отправки в терминале пишем:
 ```sh
-git push origin <branch> 
+git push origin <branch>
 ```
 Вместо branch — имя ветки, которую надо отправить. Чаще всего используется master или main: 
 
