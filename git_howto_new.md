@@ -49,3 +49,7 @@ git rm <namefile>
 ```sh
 git merge <name>
 ```
+Выталкивание локального репозитория на сервер Git
+```sh
+git push
+```
