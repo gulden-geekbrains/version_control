@@ -105,3 +105,9 @@ git clone <URL>
 ```sh
 git remotr add <name> <URL>
 ```
+
+Что бы "протолкнуть" локальный репозиторий в удаленный репозиторий используется комманда *push*
+
+```sh
+git push -u <name> <local_name>
+```
