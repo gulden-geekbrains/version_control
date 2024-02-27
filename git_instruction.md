@@ -124,3 +124,7 @@ git pull
 git push --set-upstream <name> <branch_name>
 ```
 
+Можно через терминал удалить веткку в удаленном репозитории. Это делается во время push добавляется каманда *-delete*
+```sh
+git push <name> --delete  <branch_name>
+```
