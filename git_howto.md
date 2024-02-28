@@ -1,14 +1,31 @@
-# Подсказка по гиту
+# Подсказка по GIT
 
-## Инициализация репозитория
+Создание репозитория
+git init 
 
-```sh
-git init
-```
+git add
+git commit - m "Message text"
 
-## Статус репозитория
+git log
 
-```sh
-git status
-```
+git log --oneline
+
+git checkout
+<branch_name>
+
+git checkout<имя ветки>
+
+Отображение всех веток
+
+git branch
+
+Создание новой ветки
+
+git branch <имя ветки>
+
+Удаление веток
+
+git branch -d <name to delete>
+
+
 
