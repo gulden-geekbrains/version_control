@@ -31,12 +31,10 @@
 
 ## Заключение
 
-git checkout -b updatereadme
 
-vim README.md
+git clone ссылка
 
-git add README.md
+git pull принять с github
 
-git commit -m "Добавили инструкцию как создать pull request"
+git push отправить на github
 
-git push --set-upstream origin updatereadme
