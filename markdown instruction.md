@@ -38,3 +38,4 @@ git pull принять с github
 
 git push отправить на github
 
+дз
