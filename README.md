@@ -1,4 +1,4 @@
-﻿# Это репозиторий для обучения pull request
+﻿# I. Это репозиторий для обучения pull request
 
 ## Первые шаги
 
@@ -22,7 +22,7 @@ git push --set-upstream origin updatereadme
 
 ## Заметки
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
+Чтобы сделать push от другого пользователя необходимо выполнить команду
 ```sh
 GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
 ```
@@ -34,7 +34,7 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
-# Как подружить git с github под Windows 10
+# II. Как подружить git с github под Windows 10
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
