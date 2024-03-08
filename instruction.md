@@ -1,57 +1,31 @@
-# Инструкция по языку MarkDown
+# Instruction for MarkDown
 
-Новая строка - это олна пустая строка
+## Creating text style
+Writing simple text
 
-**Полужирный текст**
+Writing from a new line
 
-*Курсив текст*
+**bold text**
 
-## Цитирование
-> Первый уровень
->> Второй уровень
+*italic text*
 
-## Списки
-### Ненумерованные списки
-* Лист 1
-* Лист 2
-### Нумерованные списки
-1. Лист 1
-2. Лист 2
-3. Лист 3
+## Quoting in Markdown
+>first level of quote
+>>second level of quote
 
-## WEB ссылки
-Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+## Lists
+### list without numbers
+* list1
+* list2
+* list3
 
-## Работа с таблицами
+### list with numbers
+1. list1
+2. list2
 
-Буква | Цифра | Символ
------- | ------|----------
-a      | 4     | $
-x      | 365    | (
-b      |       | ^  
+## web links
+text [crafti](http.crafti.md "poping hint")
 
-Буква|Цифра|Символ
----|---|---
-a|4|$
- |365|(
-b| |^  
-
-Column | Column
------- | ------
-\| Cell \|| \| Cell \|  
-
-
-Column | Column | Column
-:----- | :----: | -----:
-Left   | Center | Right
-align  | align  | align
-
-## Картинки
-
-### Это яблоко
-
-![apple](apple.jpg)
-
-### Это апельсин
-
-![orange](orange.png)
+##howto to add pictures in Markdown
+This is Roxana
+![Roxana](rox.jpg)
