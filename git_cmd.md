@@ -60,3 +60,8 @@ git merge <branch_name>
 ```sh
 git diff main <another_branch>
 ```
+
+Копирование репозитория с GitHub на локальный компьютер:
+```sh
+git clone <адрес репозитория>
+```
