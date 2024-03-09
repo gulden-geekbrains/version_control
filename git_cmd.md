@@ -65,3 +65,9 @@ git diff main <another_branch>
 ```sh
 git clone <адрес репозитория>
 ```
+
+Скачивание все из текущего репозитория на GitHub и автоматически
+сделать merge с нашей версией:
+```sh
+git pull
+```
