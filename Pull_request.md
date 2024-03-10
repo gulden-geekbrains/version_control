@@ -8,7 +8,7 @@ git clone https://github.com/AnnaWolfgang/version_control.git
 ```
 3. Переходим в папку version_control
 
-4. Создание новой ветки: 
+4. Создаем новую ветки: 
 ```sh
 git checkout -b updatereadme
 ```
@@ -24,4 +24,9 @@ git push
  ```sh
  git push --set-upstream origin updatereadme
  ```
- 8. В файле Pull_request.md создаем список проделанных шагов, фиксируем, коммитим
+ 8. В файле Pull_request.md создаем список проделанных шагов, фиксируем, коммитим.
+
+ 9. В github добавляем список проделанных шагов для конфликта
+
+ 10. Выталкиваем репозиторий в github
+
