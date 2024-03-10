@@ -16,3 +16,4 @@ git status
 
 Инструкция по Github 
 
+* git clone - копирывание репозитория 
