@@ -133,6 +133,18 @@ It would try to apply your changes on top of the changes of the remote repositor
 ```
 git rebase --continue
 ```
+
+*git pull* helps to get your repository up to date with the remote one.
+```
+git pull origin master
+```
+It is actually a combination of git fetch and git merge, if it merges and not rebases.
+```
+git fetch origin
+git merge origin/master
+```
+You can also checkout to origin/master to see changes made in the distant repository.
+
 &nbsp;
 
 You can also delete branches with git push:

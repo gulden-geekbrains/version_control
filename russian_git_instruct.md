@@ -107,42 +107,42 @@ git remote add rep_name https://site.com/owner/repository.git
 git remote
 ```
 
-And delete them with this:
+Удалённые репозитории также можно удалить у себя с помощью подобного:
 ```
 git remote rm rep_name
 ```
 
-#### You can add your changes to the distant repository like this:
+#### Такими образом можно добавлять изменения в удалённые репозитории:
 
-Pushing first time you would need to write something similar to this:
+Выталкивая изменения в репозиторий в первый раз понадобится что-то такое:
 ```
 git push -u origin master
 ```
 
-After that you can do this.
+После этого можно просто делать вот это:
 ```
 git push origin
 ```
 
-In case remote and local are different and git push fails you can do this:
+В том случае, если удалённый и локальный репозитории разные и git push не будет успешен можно сделать вот это:
 ```
 git pull --rebase
 ```
-It would try to apply your changes on top of the changes of the remote repository.
-*--continue option* llows to continue the rebase after changing anything and resolving conflicts.
+--rebase попробует наложить локальные изменения на изменения удалённого репозитория.
+Опция *--continue* помогает продолжить rebase после изменений и решения конфликтов.
 ```
 git rebase --continue
 ```
 &nbsp;
 
-You can also delete branches with git push:
+С помощью git push также можно удалять ветки:
 ```
 git push --delete origin some_branch
 ```
 
-Sometimes you don't have the permission to push like that. So you can use git pull to make a pull request
+Иногда просто пушить нет разрешения, так что можно делать пулл реквесты - для этого надо создать форк удалённого репозитория и сделать изменения там, будет опция сделать пулл реквест оригинальному репозиторию.
 
-You can also use git pull to get your repository up to date with the remote one.
+С помощью git pull
 
 If a branch does not exist in the remote repository you can push it like this:
 ```
