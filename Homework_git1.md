@@ -83,3 +83,19 @@ git log --oneline --graph
 >Опция --graph команды log позволяет увидеть небольшой граф в формате ASCII, который показывает текущую ветку и историю слияний.
 
 # Подсказка по GitHub. Работа с удаленными репозиториями.
+
+```sh
+git clone
+```
+
+```sh
+git pull
+```
+
+```sh
+git push
+```
+
+```sh
+git push origin --delete <newbranch>
+```
