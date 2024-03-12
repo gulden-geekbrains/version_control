@@ -12,3 +12,7 @@ git init
 git status
 ```
 
+## Отпрвить изменения на сервер
+```shell
+git push
+```
