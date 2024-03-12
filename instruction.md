@@ -48,10 +48,17 @@ align  | align  | align
 
 ## Картинки
 
+
+
+
 ### Это яблоко
 
 ![apple](apple.jpg)
 
 ### Это апельсин
 
-![orange](orange.png)
+![orange]( /version_control/orange.png )
+
+#
+Благодарю преподователей за данный урок!
+![Спасибо](/version_control/like.jpg)
