@@ -133,6 +133,19 @@ git pull --rebase
 ```
 git rebase --continue
 ```
+
+*git pull* помогает добавить изменения из удалённого репоизтория в локальный.
+```
+git pull origin master
+```
+git pull на самом деле является в каком-то смыслв комбинацией git fetch и git merge (если git pull настроен на merge, а не на rebase), но только дополнительная ветка не появляется, как у fetch. 
+```
+git fetch origin
+git merge origin/master
+```
+Используя git fetch можно сделать *checkout origin/master* и увидеть состояние удалённого репозитория, ничего не меняя на своём.
+
+
 &nbsp;
 
 С помощью git push также можно удалять ветки:
@@ -142,9 +155,7 @@ git push --delete origin some_branch
 
 Иногда просто пушить нет разрешения, так что можно делать пулл реквесты - для этого надо создать форк удалённого репозитория и сделать изменения там, будет опция сделать пулл реквест оригинальному репозиторию.
 
-С помощью git pull
-
-If a branch does not exist in the remote repository you can push it like this:
+Если ветка не существует в удалённом репозитории можно её вытолкнуть таким образом:
 ```
 git push --set-upstream origin new_local_branch
 ```

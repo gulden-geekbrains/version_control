@@ -138,12 +138,12 @@ git rebase --continue
 ```
 git pull origin master
 ```
-It is actually a combination of git fetch and git merge, if it merges and not rebases.
+It is actually a combination of git fetch and git merge (but a branch of the distant repository won't appear like in fetch), if it merges and not rebases. 
 ```
 git fetch origin
 git merge origin/master
 ```
-You can also checkout to origin/master to see changes made in the distant repository.
+You can also checkout to origin/master to see changes made in the distant repository without changing your own.
 
 &nbsp;
 
@@ -153,8 +153,6 @@ git push --delete origin some_branch
 ```
 
 Sometimes you don't have the permission to push like that. So you can use git pull to make a pull request
-
-You can also use git pull to get your repository up to date with the remote one.
 
 If a branch does not exist in the remote repository you can push it like this:
 ```
