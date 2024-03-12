@@ -48,6 +48,9 @@ align  | align  | align
 
 ## Картинки
 
+
+
+
 ### Это яблоко
 
 ![apple](apple.jpg)
