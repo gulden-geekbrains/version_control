@@ -6,7 +6,8 @@
 
 Откройте cmd.
 
-Наберите команду 
+Наберите команду: 
+
 ```sh
 C:\Users\USER\> ssh
 usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
@@ -17,4 +18,5 @@ usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
            [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
            [-w local_tun[:remote_tun]] destination [command]
 ```
+
 Перейдите к созданию ssh ключа.
