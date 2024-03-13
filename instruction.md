@@ -20,7 +20,7 @@
 3. Лист 3
 
 ## WEB ссылки
-Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+Текст [Котики](https://www.youtube.com/shorts/agJ0CvXXNRo "Всплывающая подсказка")
 
 ## Работа с таблицами
 
@@ -55,6 +55,3 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
-
-## Видео
-<video>https://www.youtube.com/shorts/agJ0CvXXNRo</video>
