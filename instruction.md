@@ -55,3 +55,25 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+##Работа с удаленными репозиториями
+
+Добавление удаленного репозитория:
+
+git remote add origin <remote_url>
+
+Просмотр списка удаленных репозиториев:
+
+git remote -v
+
+Удаление удаленного репозитория:
+
+git remote remove <name>
+
+Отправка изменений на удаленный репозиторий:
+
+git push origin <branch> 
+
+Получение изменений с удаленного репозитория:
+
+git pull origin <branch>
