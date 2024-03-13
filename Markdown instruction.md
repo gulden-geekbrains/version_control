@@ -33,3 +33,5 @@
 
 ```
 git branch <имя файла>
+
+Попытка сделать PULL REQUVEST
