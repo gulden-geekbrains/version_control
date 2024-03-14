@@ -20,4 +20,4 @@ git rm
 ```sh
 git branch -D <названия ветки>
 ```
-[ссылка на git](https://github.com/Uberkaiyr/version_control)
+### [Ссылка на github](https://github.com/Uberkaiyr/version_control)
