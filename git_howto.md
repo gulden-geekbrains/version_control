@@ -12,6 +12,6 @@ git init
 git status
 ```
 Скриншот
-![Pull_request](Pull_request.jpg)
+![pull_request](pull_request.jpg)
 
 
