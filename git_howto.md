@@ -11,4 +11,7 @@ git init
 ```sh
 git status
 ```
+Скриншот
 ![Pull_request](Pull_request.jpg)
+
+
