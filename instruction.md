@@ -56,4 +56,12 @@ align  | align  | align
 
 ![orange](orange.png)
 
-Текст
+## Работа с удалёнными репозиториями
+
+### Команды 
+
+git pull
+git push
+git clone
+git rebase --continue
+git pull --rebase
