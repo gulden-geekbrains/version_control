@@ -55,3 +55,13 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Работа с удалёнными репозиториями
+
+### Команды 
+
+git pull
+git push
+git clone
+git rebase --continue
+git pull --rebase
