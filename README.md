@@ -38,4 +38,11 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+# Pull request
 
+* Делаем fork репозитрии
+* Делаем clone СВОЕЙ версии репозитории
+* Создаем новую ветку и в НЕЁ вкосим свои изменения 
+* Фиксируем ихменение 
+* Отправляем свою версию в свой GitHub
+* На сайте GitHub нажимаем кнопку pull request
