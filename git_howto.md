@@ -71,3 +71,18 @@ git log -graph
 ```sh
 git merge branch_name
 ```
+
+## Клонирование с удаленки
+```sh
+git clone
+```
+## Скачивает то что есть в сайте
+
+```sh
+git pull
+```
+## Отправляет на сайт
+
+```sh
+git push
+```
