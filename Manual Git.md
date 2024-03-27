@@ -152,3 +152,11 @@ git branch -d <branch_name>
 git log -graph
 ```
 
+## **Команды Git для работы с удалённым репозиторием GitHub.com**
+
+* git branch
+* git log -graph
+* git checkout <branch_name>
+* git merge
+
+
