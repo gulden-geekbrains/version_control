@@ -84,3 +84,13 @@ git branch -d <branch name>
 ```sh
 git rm <file>
 ```
+
+### Работа с удалённым репозиторием
+
+```sh
+git clone <URL>
+git push
+git push origin --delete <branch_name>
+git pull
+git remote add <URL>
+```
