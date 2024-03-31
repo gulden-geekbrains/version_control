@@ -1,6 +1,4 @@
-﻿# Это репозиторий для обучения pull request
-
-## Первые шаги
+﻿# Это репозиторий для обучения pull reques## Первые шаги
 
 1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
 2. Выполняем команду клонирования из своей fork-копии
@@ -38,4 +36,8 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+```sh 
+git merge (локальное слияние веток)
+git pull (команда для вывода данных с браузера)
+git push (команда для выгрузки на github)
+```
