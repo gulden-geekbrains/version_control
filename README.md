@@ -36,8 +36,3 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-```sh
-git merge (локальное слияние веток)
-git pull (команда для вывода данных с браузера)
-git push (команда для выгрузки на github)
-```
