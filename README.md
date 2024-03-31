@@ -1,41 +1,59 @@
-﻿# Это репозиторий для обучения pull request
+﻿# Урок 6. Семинар. Работа с удалёнными репозиториями
 
-## Первые шаги
+git config - инфомация о всем
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
-2. Выполняем команду клонирования из своей fork-копии
-```sh
-git clone git@github.com:*YOURE_GITHUB*/version_control.git
-```
-3. Создаем новую ветку и вносим необходимые изменения в файл
-```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
-git commit -m "Добавили инструкцию как создать pull request"
-```
-4. Делаем push  
-```sh
-git push --set-upstream origin updatereadme
-```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
+git config user.name - информация об имени
 
-## Заметки
+cd -смена директорий 
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
-```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
-```
+rm .имя файла - удаление файла
 
-вместо *user-private-key* подставьте свой ключ
+pwd - отображение директории
 
-Можно прописать настройки для подсоединения по ssh
-```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
-```
-# Как подружить git с github под Windows 10
+ls - листинг текущей директории (обзор файлом в папке)
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+git 
 
+Далее последовательность команд при редактировании файлов
 
+git init
+
+git status - отображает результаты и наличие комитов
+
+git add полное название файла с расширением
+
+git commit -m ”вводим комментарий” (только после git add)
+
+git lоg - отображение коммитов
+
+git log —oneline - сокращение размера информации о коммит
+
+git log --graph - графическое отображение веток
+
+git restore - отменить последние изменения
+
+git checkout - переходы по коммитам
+
+git diff отслеживание изменений детально. Можно добавлять  разные команды для разных опций данной команды
+
+Стрелки вверх/вниз - повтор предыдущих команд
+
+Tab - автозаполнение имения файла если в команде есть название файла
+
+git branch - отображение местонахождения в ветке в какой именно ветке ты сейчас находишься
+
+git branch имя_ветки - создание новой ветки
+
+git checkout имя_ветки - переход на нужную ветку
+
+git merge имя_ветки - слияние двух веток
+
+git branch -d имя_ветки - удаление ветки (после того как слили две ветки)
+
+Git puch - выгрузить в Github
+
+Git pull - скачать из Github
+
+Git clone - копировать репозиторий из гит хаба
+
+Git pull - -rebase - скачать удаленный репозиторий и отправить свои изменения. когда есть изменения у на удаленном репозитории и на вашем
