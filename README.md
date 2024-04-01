@@ -39,3 +39,16 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+
+ git add "имя файла" 
+
+ потом git commit -m "text"
+
+ дальше проверить через git status
+
+git push -u origin main команда для заливки в облако
+
+git push --set-upstream origin intruction залить в облако ветку
+
+git pull забираем с облака 
+
