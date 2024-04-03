@@ -1,4 +1,4 @@
-﻿# Это репозиторий для обучения pull request
+# Это репозиторий для обучения pull request
 
 ## Первые шаги
 
@@ -20,22 +20,61 @@ git push --set-upstream origin updatereadme
 ```
 5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
 
-## Заметки
+## Новые команды:
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
+Создание папки:
+
 ```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+mkdir <name_folder>
 ```
 
-вместо *user-private-key* подставьте свой ключ
+Переход в папку:
 
-Можно прописать настройки для подсоединения по ssh
 ```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+cd <name_folder>/
 ```
-# Как подружить git с github под Windows 10
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+Переименовать ветку master:
+
+```sh
+git branch -M main
+```
+
+Команда для просмотра подключенных удаленных репозиториев:
+```sh
+git remote -v
+```
+
+Команда позволяет просматривать, добавлять и удалять удаленные репозитории:
+```sh
+git remote 
+```
+
+Подробная информация об удаленном репозитории:
+```sh
+git remote show origin
+```
+
+Удалить ветку на удаленном репозитории:
+```sh
+git push origin --delete branch_name
+```
+
+Соединить изменения сетевого репозитория с локальной веткой:
+```sh
+git pull --rebase
+```
+
+Забрать изменения из удалённого репозитория, а затем слить их с текущей веткой:
+```sh
+git pull
+```
+
+Установить связь с удалённым репозиторием, вычислить локальные изменений, отсутствующие в нём, и передачи ихв вышеупомянутый репозиторий:
+
+```sh
+git push
+```
+
 
 
