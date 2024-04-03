@@ -128,3 +128,6 @@ git branch --delete [branch-name]
 git push --delete origin [branch-name].
 ```
 
+```sh
+                           Finish
+```
