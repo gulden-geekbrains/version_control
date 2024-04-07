@@ -1,4 +1,4 @@
-# Подсказка по гиту
+# How to work with git
 
 ## Инициализация репозитория
 
@@ -6,9 +6,5 @@
 git init
 ```
 
-## Статус репозитория
-
-```sh
-git status
-```
+main commands
 
