@@ -55,3 +55,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Ссылки в текста
+
+Ссылка на [GitHub](https://github.com/)

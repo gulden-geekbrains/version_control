@@ -39,3 +39,11 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+
+Стала не понятна команда *vim README.md*, поэтому добавили запись сюда.
+
+Изменили instruction.md. и сделали push новой ветки markdown_instruction. Т.к. не увидели в браузере compare and pull request.
