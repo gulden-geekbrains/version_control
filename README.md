@@ -1,41 +1,42 @@
-﻿# Это репозиторий для обучения pull request
+﻿git --version - вывести верси git
 
-## Первые шаги
+git init - инициализация
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
-2. Выполняем команду клонирования из своей fork-копии
-```sh
-git clone git@github.com:*YOURE_GITHUB*/version_control.git
-```
-3. Создаем новую ветку и вносим необходимые изменения в файл
-```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
-git commit -m "Добавили инструкцию как создать pull request"
-```
-4. Делаем push  
-```sh
-git push --set-upstream origin updatereadme
-```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
+git status - статус папки
 
-## Заметки
+git add "название файла" - добавить файл для отслеживания
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
-```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
-```
+git commit -m "сообщение" - добавить комментарий к текущему изменению
 
-вместо *user-private-key* подставьте свой ключ
+git log - вывести на экран журнал версий
 
-Можно прописать настройки для подсоединения по ssh
-```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
-```
-# Как подружить git с github под Windows 10
+git checkout "id версии"- вернуться к нужной версии
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+git checkout master - вернуться в актуальное состояние
+
+git diff - показать внесенные изменения
+
+Работа с ветками
+git branch - вывести в терминале все ветки
+
+git branch ..название ветки.. - создать новую ветку
+
+git checkout ..название ветки.. - перейти на ветку
+
+git merge ..название ветки.. - слить ветку
+
+git branch -d ..название ветки.. - удалить ветку
+
+.gitignore - игнорировать файл
+
+git log --graph - вывести дерево веток
 
 
+Некоторые советы по работе с Git, которые могут помочь новичку
+Не забывайте после каждого изменения в файле нижимать Ctrl + S
+
+Если нужно внести изменение в текущее сохранение, то нужно снова ввести команду git add "название файла"
+
+в команде checkout достаточно ввести 4 первых знака из id версии
+
+если нужно создать новую ветку - не забывайте вернуться на ветку master
