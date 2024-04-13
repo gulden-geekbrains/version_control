@@ -1,41 +1,52 @@
-﻿# Это репозиторий для обучения pull request
+﻿# Инструкция по работе с Git #
 
-## Первые шаги
+## Основные команды в Git
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
-2. Выполняем команду клонирования из своей fork-копии
-```sh
-git clone git@github.com:*YOURE_GITHUB*/version_control.git
-```
-3. Создаем новую ветку и вносим необходимые изменения в файл
-```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
-git commit -m "Добавили инструкцию как создать pull request"
-```
-4. Делаем push  
-```sh
-git push --set-upstream origin updatereadme
-```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
+1. git --version - вывести верси git 
 
-## Заметки
+2. git init - инициализация
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
-```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
-```
+3. git status - статус папки
 
-вместо *user-private-key* подставьте свой ключ
+4. git add "название файла" - добавить файл для отслеживания
 
-Можно прописать настройки для подсоединения по ssh
-```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
-```
-# Как подружить git с github под Windows 10
+5. git commit -m "сообщение" - добавить комментарий к текущему изменению
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+6. git log - вывести на экран журнал версий
 
+7. git checkout "id версии"- вернуться к нужной версии
 
+8. git checkout master - вернуться в актуальное состояние
+
+9. git diff - показать внесенные изменения
+
+## Работа с ветками ##
+
+1. git branch - вывести в терминале все ветки
+
+2. git branch ..название ветки.. - создать новую ветку
+
+3. git checkout ..название ветки.. - перейти на ветку
+
+4. git merge ..название ветки.. - слить ветку
+
+5. git branch -d ..название ветки.. - удалить ветку
+
+6. .gitignore - игнорировать файл
+
+7. git log --graph - вывести дерево веток
+
+## Логотип программы Git ##
+
+![Логотип Git](Gitlogo.png)
+это логотип программы Git
+
+## Некоторые советы по работе с Git, которые могут помочь новичку ##
+
+* Не забывайте после каждого изменения в файле нижимать Ctrl + S
+
+* Если нужно внести изменение в текущее сохранение, то нужно снова ввести команду git add "название файла"
+
+* в команде checkout достаточно ввести 4 первых знака из id версии
+
+* если нужно создать новую ветку - не забывайте вернуться на ветку master
