@@ -1,41 +1,90 @@
-﻿# Это репозиторий для обучения pull request
+# Инструкция по использованию Git
 
-## Первые шаги
+Git - это распределенная система контроля версий, которая помогает в управлении и отслеживании изменений в коде и других файлах.
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
-2. Выполняем команду клонирования из своей fork-копии
-```sh
-git clone git@github.com:*YOURE_GITHUB*/version_control.git
-```
-3. Создаем новую ветку и вносим необходимые изменения в файл
-```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
-git commit -m "Добавили инструкцию как создать pull request"
-```
-4. Делаем push  
-```sh
-git push --set-upstream origin updatereadme
-```
-5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
+## Установка Git
 
-## Заметки
+1. Скачайте установочный пакет Git с [официального сайта Git](https://git-scm.com/).
+2. Запустите установочный файл и следуйте инструкциям мастера установки.
 
-Что бы сделать push от другого пользователя необходимо выполнить команду
-```sh
-GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push git@github.com:gulden-geekbrains/version_control.git
+## Начало работы
+
+1. Откройте терминал или командную строку на вашем компьютере.
+2. Инициализируйте новый репозиторий в выбранной папке с помощью команды:
+
+```bash
+git init 
 ```
 
-вместо *user-private-key* подставьте свой ключ
+## Добавление файлов в репозиторий
 
-Можно прописать настройки для подсоединения по ssh
-```sh
-git config remote.origin.url git@github.com:gitusername/reponame
-git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
+1. Добавьте файлы в индекс Git с помощью команды:
+
+```bash
+git add <файлы>
 ```
-# Как подружить git с github под Windows 10
 
-Вот видео инструкция https://youtu.be/E8cIjbJMEpE
+Например:
 
+```bash
+git add index.html style.css
+```
+
+## Создание коммита
+
+1. Создайте коммит с добавленными файлами, используя команду:
+
+```bash
+git commit -m "Ваше сообщение коммита"
+```
+
+Например:
+
+```bash
+git commit -m "Добавлены файлы index.html и style.css"
+```
+
+## Работа с удаленными репозиториями
+
+### Клонирование репозитория
+
+1. Клонируйте удаленный репозиторий на ваш компьютер с помощью команды:
+
+```bash
+git clone <URL репозитория>
+```
+
+Например:
+
+```bash
+git clone https://github.com/username/repository.git
+```
+
+### Получение изменений из удаленного репозитория
+
+1. Получите изменения из удаленного репозитория с помощью команды:
+
+```bash
+git pull
+```
+
+### Отправка изменений в удаленный репозиторий
+
+1. Отправьте изменения из вашего локального репозитория в удаленный репозиторий с помощью команды:
+
+```bash
+git push
+```
+
+2. Если это ваш первый push, используйте:
+
+```bash
+git push -u origin <название ветки>
+```
+
+Например:
+
+```bash
+git push -u origin main
+```
 
