@@ -28,3 +28,10 @@
 # Добавим как добовлять картинки в Markdown
 Это кошка
 ![кошка](Cat.jpg)
+
+# Делаем fork репозитория,в котором потом хотим сделать pull request.Ищем кнопку Fork на странице репозитория
+
+
+[https://git@github.com:gulden-geekbrains/version_control.git]("Github")
+
+
