@@ -38,4 +38,5 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
-
+# Добавил в инструкцию git_howto.md новые команды
+Новые команды предназначены для работы с удаленными репозиториями.
