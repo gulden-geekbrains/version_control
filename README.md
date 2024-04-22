@@ -38,4 +38,13 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+## Работа с удаленными репозиториями
+
+Для работы с удаленными репозиториями в Git используются команды `git remote`. Примеры использования:
+
+- `git remote add origin URL` - добавление удаленного репозитория под именем origin.
+- `git remote -v` - просмотр списка удаленных репозиториев.
+- `git push origin master` - отправка изменений на удаленный репозиторий под именем origin в ветку master.
+
+Более подробную информацию можно найти в [документации Git](https://git-scm.com/docs/git-remote)
 
