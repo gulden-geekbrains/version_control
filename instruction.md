@@ -55,3 +55,22 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Adding a remote repository
+
+To add a new remote, use the `git remote add` command on the terminal, in the directory your repository is stored at.
+
+The `git remote add` command takes two arguments:
+- A remote name, for example, `origin`
+- A remote URL, for example, `https://{% data variables.command_line.backticks %}/OWNER/REPOSITORY.git`
+
+For example:
+
+```shell
+$ git remote add origin https://{% data variables.command_line.codeblock %}/OWNER/REPOSITORY.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://{% data variables.command_line.codeblock %}/OWNER/REPOSITORY.git (fetch)
+> origin  https://{% data variables.command_line.codeblock %}/OWNER/REPOSITORY.git (push)
