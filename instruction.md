@@ -55,3 +55,11 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+
+Типо я написала инфтсрукцию по pull request
+Типо я написала инфтсрукцию по pull request
+Типо я написала инфтсрукцию по pull request
+Типо я написала инфтсрукцию по pull request
+Типо я написала инфтсрукцию по pull request
+Типо я написала инфтсрукцию по pull request
