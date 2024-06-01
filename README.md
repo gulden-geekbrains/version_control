@@ -38,4 +38,29 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+# Как объединить несколько комитов в один цельный комит?
+## Открываем интерактивное меню rebase
+```
+git rebase -i HEAD~[число комитов]
+```
+## Проставляем s(squash)
 
+## Заливаем все изменения
+```
+git push --force
+```
+# Как поменять ссылку на удаленный репозиторий?
+## Посмотреть текущие ссылки на удаленый репозиторий
+```
+git remote -v
+```
+
+## Добавить ссылку на удаленный резизиторий
+```
+git remote add origin [url_of_git_repository]
+```
+
+## Изменить ссылку на удаленный репозиторий
+```
+git remote set-url origin [newurl_of_git_repository]
+```
