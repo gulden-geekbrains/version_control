@@ -30,16 +30,6 @@ a      | 4     | $
 x      | 365    | (
 b      |       | ^  
 
-Буква|Цифра|Символ
----|---|---
-a|4|$
- |365|(
-b| |^  
-
-Column | Column
------- | ------
-\| Cell \|| \| Cell \|  
-
 
 Column | Column | Column
 :----- | :----: | -----:
@@ -51,7 +41,3 @@ align  | align  | align
 ### Это яблоко
 
 ![apple](apple.jpg)
-
-### Это апельсин
-
-![orange](orange.png)
