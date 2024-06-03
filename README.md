@@ -38,4 +38,16 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+Делаем fork репозитория, в которой потом хотим сделать pull request.
 
+Ищем кнопку Fork на странице репозитория 
+
+Выполняем команду клонирования из своей fork-копии
+
+Создаем новую ветку и вносим необходимые изменения в файл
+
+git commit -m "Добавили инструкцию как создать pull request"
+
+Делаем push
+
+git push --set-upstream origin updatereadme 
