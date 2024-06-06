@@ -1,57 +1,48 @@
-# Инструкция по языку MarkDown
+# Geek
+learning stuff
+=======
+# DESCRIPTION
 
-Новая строка - это олна пустая строка
+Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+A formatted and hyperlinked copy of the latest Git documentation can be viewed at https://git.github.io/htmldocs/git.html or https://git-scm.com/docs.
 
-**Полужирный текст**
+## OPTIONS
 
-*Курсив текст*
+```sh -v
+--version
+```
+Prints the Git suite version that the git program came from.
 
-## Цитирование
-> Первый уровень
->> Второй уровень
+This option is internally converted to git version ... and accepts the same options as the git-version command. If --help is also given, it takes precedence over --version.
 
-## Списки
-### Ненумерованные списки
-* Лист 1
-* Лист 2
-### Нумерованные списки
-1. Лист 1
-2. Лист 2
-3. Лист 3
+```sh
+-h
+--help 
+```
+Prints the synopsis and a list of the most commonly used commands. If the option --all or -a is given then all available commands are printed. If a Git command is named this option will bring up the manual page for that command.
 
-## WEB ссылки
-Текст [пример ссылки](http.example.com "Всплывающая подсказка")
+## COMMANDS
+```sh
+git-status
+```
+- Show the working tree status
+```sh
+git-init 
+```
+- Create an empty Git repository or reinitialize an existing one
+```sh 
+git-add
+```
+- Add file contents to the index
+```sh
+git-commit
+```
+ - Record changes to the repository
+ ```sh
+ git-diff
+ ```
+  - Show changes between commits, commit and working tree, etc
+```sh
+git-log
+```
 
-## Работа с таблицами
-
-Буква | Цифра | Символ
------- | ------|----------
-a      | 4     | $
-x      | 365    | (
-b      |       | ^  
-
-Буква|Цифра|Символ
----|---|---
-a|4|$
- |365|(
-b| |^  
-
-Column | Column
------- | ------
-\| Cell \|| \| Cell \|  
-
-
-Column | Column | Column
-:----- | :----: | -----:
-Left   | Center | Right
-align  | align  | align
-
-## Картинки
-
-### Это яблоко
-
-![apple](apple.jpg)
-
-### Это апельсин
-
-![orange](orange.png)
