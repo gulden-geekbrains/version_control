@@ -1,0 +1,5 @@
+apple.jpg
+can.jpg
+zametki.txt
+# ignore all logs
+*.log
