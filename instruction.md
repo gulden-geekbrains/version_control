@@ -54,4 +54,12 @@ align  | align  | align
 
 ### Это апельсин
 
-![orange](orange.png)
+![orange](orange.png) 
+
+##Создаем инчтрукцию при работе с системными ошибками!
+
+1. Классифицируем ошибки
+
+2. Пишем инструкцию на каждую ошибку
+   
+![Дополнили инструкцию  ](https://github.com/KurbakovskiyYuriy/version_control/assets/173293286/26110ca3-c30f-4ed0-9159-ed44c0a67484)
