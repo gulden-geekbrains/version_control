@@ -55,3 +55,20 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+### Основные команды для работы с Git
+
+```sh
+cd <директория>
+ls (состав паки)
+
+git init
+git status
+git add .
+git commit -m "Комментарий"
+git branch <наззвание ветки>
+git log --oneline --grapg
+git clone
+git push <ссылка на GitHub>
+git pull
+```
