@@ -11,4 +11,4 @@ git init
 ```sh
 git status
 ```
-
+Вот ссылка на мой репозиторий: https://github.com/StasTsarenok/Lesson3.git
