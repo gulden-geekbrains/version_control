@@ -55,3 +55,6 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+## Это котик
+![котик](https://i.pinimg.com/736x/30/04/37/30043702103a235c0b75d84f168d32c6.jpg)
