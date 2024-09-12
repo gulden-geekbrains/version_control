@@ -39,3 +39,13 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
 
+# Как удалить репозиторий на github
+
+1. Открываем нужный репозиторий
+2. Нажимаем SETTINGS
+3. скроллим в самый низ
+4. Нажимаем кнопку DELETE THIS REPOSITORY
+5. В всплывающем окне вводим имя репозитория, который необходимо удалить
+6. Подтверждаем своё действие паролем от github
+7. Репозиторий удален
+
