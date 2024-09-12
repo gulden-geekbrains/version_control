@@ -48,10 +48,6 @@ align  | align  | align
 
 ## Картинки
 
-### Это яблоко
+### Это горы
 
-![apple](apple.jpg)
-
-### Это апельсин
-
-![orange](orange.png)
+![Горы](mountains.jpg)
