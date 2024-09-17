@@ -55,3 +55,7 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+### Это ананас
+
+![pineapple](pineapple.png)
