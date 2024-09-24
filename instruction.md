@@ -55,3 +55,6 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+2 конфликт приоритет гитхаб гитхаб репо (гл. ветка makdown_instruction)
+
