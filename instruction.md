@@ -36,15 +36,15 @@ a|4|$
  |365|(
 b| |^  
 
-Column | Column
+Столбец | Столбец
 ------ | ------
 \| Cell \|| \| Cell \|  
 
 
-Column | Column | Column
-:----- | :----: | -----:
-Left   | Center | Right
-align  | align  | align
+Столбец | Столбец | Столбец
+:-----  | :----: | -----:
+Левый  | Центр | Правый
+Левый  | Центр | Правый
 
 ## Картинки
 
@@ -54,4 +54,4 @@ align  | align  | align
 
 ### Это апельсин
 
-![orange](orange.png)
+![orange](orange.png)  
