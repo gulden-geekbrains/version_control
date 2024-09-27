@@ -14,7 +14,7 @@ vim README.md
 git add README.md
 git commit -m "Добавили инструкцию как создать pull request"
 ```
-4. Делаем push  
+4. Делаем push. 
 ```sh
 git push --set-upstream origin updatereadme
 ```
