@@ -1,0 +1,13 @@
+# Universal-Interaction-Platform
+The instructions include necessary commands, code, and explanations for setting up the application step by step.
+## Backend Setup (FastAPI)
+The backend handles user authentication, messaging, and a simple newsfeed.
+-----------------------------------------
+### Code:app.py
+```python
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List
+import sqlite3
+
+app = FastAPI()
