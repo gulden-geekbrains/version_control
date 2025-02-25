@@ -38,4 +38,13 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+# Вносим дополнение в README.md
+
+Для того, чтоб вытащить к себе локально форкнутый репозиторий, можно сразу применить
+```sh
+git pull <ссылка на репозиторий с сайта>
+```
+
+Дальше можно работать, как прописано в инструкции
+
 
